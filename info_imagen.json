@@ -1,0 +1,82 @@
+{
+    "1_Introduccion": {
+        "name": "1_Introduccion",
+        "video_urls": null,
+        "long_description": {},
+        "ipynbs": {
+            "Introduccion": "https://colab.research.google.com/drive/1cBYEVwc7qWCg3iWoWlS83xyzhpH4TO4U",
+            "ejercicios": "https://colab.research.google.com/drive/1T04WYgFfZ7I4UW73gLf6oI0hy76MUYu7",
+            "ejercicios_solucion": "https://colab.research.google.com/drive/1526SFX_w9URLd2EKV53ljzAY-8t5UWM0"
+        },
+        "materials": {}
+    },
+    "2_Convoluciones": {
+        "name": "2_Convoluciones",
+        "video_urls": null,
+        "long_description": {},
+        "ipynbs": {
+            "Capas_Convolucionales": "https://colab.research.google.com/drive/1EQuiG6MIMh2CWLRm_mH_92XkGNL7OCSy",
+            "ejercicios": "https://colab.research.google.com/drive/1GVOTOKc_bONsUzNhxAeM-tChgW6yHm83",
+            "ejercicios_solucion": "https://colab.research.google.com/drive/1SWiy6Bm6vCp_vt6HiGCXtYPdZLPj00w4"
+        },
+        "materials": {}
+    },
+    "3_CNN_Modernas": {
+        "name": "3_CNN_Modernas",
+        "video_urls": null,
+        "long_description": {},
+        "ipynbs": {
+            "1_Redes_Convolucionales": "https://colab.research.google.com/drive/17WvLakwc6bATq-jN_V7uihNYqsL7VE-9",
+            "2_Transformers_Vision": "https://colab.research.google.com/drive/124fa2dLbHg_ox7TVeCVLipmfiX046BgN",
+            "ejercicios": "https://colab.research.google.com/drive/1LZpH_T-TKCjH8Wmz3bQhH7WwtKLyfCsG",
+            "ejercicios_solucion": "https://colab.research.google.com/drive/1n5tld2TcXhn4TbrcbFbBXsY6FolKtctr"
+        },
+        "materials": {}
+    },
+    "4_Transfer_Learning": {
+        "name": "4_Transfer_Learning",
+        "video_urls": null,
+        "long_description": {},
+        "ipynbs": {
+            "1_VisualizacionFeatures": "https://colab.research.google.com/drive/1QGHlZmeu5JdFXfzhCl23E2LYdSJmJUP_",
+            "2_FineTuning": "https://colab.research.google.com/drive/1sqBzWg9o5MWkADFifg_xgXI0xx7Rb_sg",
+            "3_TransferenciaEstilos": "https://colab.research.google.com/drive/18IuDyB3of9Z44CHxrPPzVYN-KWwkjL2d",
+            "ejercicios": "https://colab.research.google.com/drive/1QDEjzA1YSo6O2XIrMTXZGueeMymppgBR",
+            "ejercicios_solucion": "https://colab.research.google.com/drive/1Ss9eaAWgjnx_NR6t5IV2fNQ1xrOaqMVm"
+        },
+        "materials": {}
+    },
+    "5_Deteccion_Objetos": {
+        "name": "5_Deteccion_Objetos",
+        "video_urls": null,
+        "long_description": {},
+        "ipynbs": {
+            "Deteccion_Objetos": "https://colab.research.google.com/drive/1XzeCv-zuc8hh4N9IOtjWkfWg0L-_hsLB",
+            "ejercicios": "https://colab.research.google.com/drive/15X-kJhwPUTG-mRy1cvJGqhgXK6NWfo0_",
+            "ejercicios_solucion": "https://colab.research.google.com/drive/12Fo1JMlDbdGmNhA7bS8yRKFSWaMCsLCO"
+        },
+        "materials": {}
+    },
+    "6_Segmentacion": {
+        "name": "6_Segmentacion",
+        "video_urls": null,
+        "long_description": {},
+        "ipynbs": {
+            "Segmentacion": "https://colab.research.google.com/drive/1494EYI2l6fdn6NC3yCgSjyiQMl17sCMw",
+            "ejercicios": "https://colab.research.google.com/drive/1H0DIek61kgcVOlS774X9EsQnu_cb59F_",
+            "ejercicios_solucion": "https://colab.research.google.com/drive/1Qv41hx97ET9__hhnq2J0fjEimb_4vmq3"
+        },
+        "materials": {}
+    },
+    "7_Modelos_Generativos": {
+        "name": "7_Modelos_Generativos",
+        "video_urls": null,
+        "long_description": {},
+        "ipynbs": {
+            "GANs": "https://colab.research.google.com/drive/1Ra6sPUnRhhycZjwy-THu81wjHLgTFTOu",
+            "ejercicios": "https://colab.research.google.com/drive/1aBJW7-xkMi1g3ud7eH9V5kLi5H7mWLi0",
+            "ejercicios_solucion": "https://colab.research.google.com/drive/1WwzFfhP9tPgyXKzpvOKPRTp__Y2wiTJr"
+        },
+        "materials": {}
+    }
+}
