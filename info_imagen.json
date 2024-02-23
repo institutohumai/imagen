@@ -2,7 +2,18 @@
     "1_Introduccion": {
         "name": "1_Introduccion",
         "video_urls": [],
-        "long_description": {},
+        "long_description": {
+            "intro": "En esta primera clase de Visi\u00f3n Artificial, analizaremos diversos aspectos consustanciales a la interpretaci\u00f3n y manipulaci\u00f3n de im\u00e1genes. Siendo innegable el papel de las im\u00e1genes y videos en la generaci\u00f3n de grandes vol\u00famenes de datos e informaci\u00f3n a nuestro alrededor, esta clase representa una necesidad imperante para cualquier cient\u00edfico de datos.",
+            "temas": [
+                "Conceptos b\u00e1sicos e introducci\u00f3n a la Visi\u00f3n Artificial",
+                "Exploraci\u00f3n de su funcionamiento y aplicaciones",
+                "T\u00e9cnicas de manipulaci\u00f3n: Filtros gaussianos, detecci\u00f3n de bordes, cambio de tama\u00f1o, recortes, agrupaciones y adici\u00f3n de figuras geom\u00e9tricas y textos",
+                "Recorte, extracci\u00f3n y cambio de perspectiva de im\u00e1genes",
+                "Introducci\u00f3n a la detecci\u00f3n de rostros y aplicaci\u00f3n del algoritmo Viola & Jones",
+                "Uso de la tecnolog\u00eda OpenCV para la manipulaci\u00f3n y an\u00e1lisis de videos y c\u00e1maras web."
+            ],
+            "outro": "Esta clase brindar\u00e1 a los estudiantes la habilidad pr\u00e1ctica de manipular, interpretar y extraer informaci\u00f3n valiosa de im\u00e1genes y videos utilizando diversas t\u00e9cnicas y algoritmos. Los estudiantes tambi\u00e9n ser\u00e1n capaces de aplicar sus conocimientos para implementar soluciones de detecci\u00f3n de rostros y entender\u00e1n los fundamentos del an\u00e1lisis de video y el manejo de c\u00e1maras web."
+        },
         "ipynbs": {
             "Introduccion": "https://colab.research.google.com/drive/1cBYEVwc7qWCg3iWoWlS83xyzhpH4TO4U",
             "ejercicios": "https://colab.research.google.com/drive/1T04WYgFfZ7I4UW73gLf6oI0hy76MUYu7",
@@ -13,7 +24,7 @@
     "2_Convoluciones": {
         "name": "2_Convoluciones",
         "video_urls": [],
-        "long_description": {},
+        "long_description": "",
         "ipynbs": {
             "Capas_Convolucionales": "https://colab.research.google.com/drive/1EQuiG6MIMh2CWLRm_mH_92XkGNL7OCSy",
             "ejercicios": "https://colab.research.google.com/drive/1GVOTOKc_bONsUzNhxAeM-tChgW6yHm83",
@@ -24,7 +35,7 @@
     "3_CNN_Modernas": {
         "name": "3_CNN_Modernas",
         "video_urls": [],
-        "long_description": {},
+        "long_description": "",
         "ipynbs": {
             "1_Redes_Convolucionales": "https://colab.research.google.com/drive/17WvLakwc6bATq-jN_V7uihNYqsL7VE-9",
             "2_Transformers_Vision": "https://colab.research.google.com/drive/124fa2dLbHg_ox7TVeCVLipmfiX046BgN",
@@ -36,7 +47,17 @@
     "4_Transfer_Learning": {
         "name": "4_Transfer_Learning",
         "video_urls": [],
-        "long_description": {},
+        "long_description": {
+            "intro": "Esta clase se enfoca en la aplicaci\u00f3n del Transfer Learning, que es una t\u00e9cnica de aprendizaje autom\u00e1tico supervisado que utiliza modelos previamente entrenados en un dominio para aprender en otro dominio relacionado. Los detalles cubiertos ayudar\u00e1n a los estudiantes a implementar t\u00e9cnicas de aprendizaje por transferencia para mejorar el rendimiento de sus modelos de aprendizaje de m\u00e1quina y la comprensi\u00f3n de las caracter\u00edsticas de las im\u00e1genes.",
+            "temas": [
+                "\u00bfQu\u00e9 es Transfer Learning y por qu\u00e9 es \u00fatil en el aprendizaje autom\u00e1tico? ",
+                "Uso de la biblioteca de Python para el aprendizaje por transferencia.",
+                "C\u00f3mo cargar y modificar modelos preentrenados.",
+                "C\u00f3mo definir e implementar la transferencia de estilo con Pytorch.",
+                "C\u00f3mo optimizar una imagen para un estilo de imagen objetivo."
+            ],
+            "outro": "Tras esta clase, los estudiantes tendr\u00e1n conocimientos pr\u00e1cticos para realizar la transferencia de estilo entre im\u00e1genes y mejorar la eficiencia y eficacia de sus modelos de aprendizaje autom\u00e1tico. Esta clase tambi\u00e9n fomentar\u00e1 las habilidades de an\u00e1lisis y resoluci\u00f3n de problemas en inteligencia artificial y aprendizaje de m\u00e1quina."
+        },
         "ipynbs": {
             "1_VisualizacionFeatures": "https://colab.research.google.com/drive/1QGHlZmeu5JdFXfzhCl23E2LYdSJmJUP_",
             "2_FineTuning": "https://colab.research.google.com/drive/1sqBzWg9o5MWkADFifg_xgXI0xx7Rb_sg",
@@ -49,7 +70,7 @@
     "5_Deteccion_Objetos": {
         "name": "5_Deteccion_Objetos",
         "video_urls": [],
-        "long_description": {},
+        "long_description": "",
         "ipynbs": {
             "Deteccion_Objetos": "https://colab.research.google.com/drive/1XzeCv-zuc8hh4N9IOtjWkfWg0L-_hsLB",
             "ejercicios": "https://colab.research.google.com/drive/15X-kJhwPUTG-mRy1cvJGqhgXK6NWfo0_",
@@ -60,7 +81,19 @@
     "6_Segmentacion": {
         "name": "6_Segmentacion",
         "video_urls": [],
-        "long_description": {},
+        "long_description": {
+            "intro": "La clase 6 de programaci\u00f3n en Python se centra en segmentaci\u00f3n sem\u00e1ntica: una t\u00e9cnica que divide una imagen en regiones que pertenecen a diferentes clases sem\u00e1nticas. Esta clase cubre c\u00f3mo se diferencian la segmentaci\u00f3n sem\u00e1ntica, la segmentaci\u00f3n de im\u00e1genes y la segmentaci\u00f3n de instancias, utilizando el dataset de segmentaci\u00f3n sem\u00e1ntica Pascal VOC2012 y explicando la convoluci\u00f3n transpuesta. Adem\u00e1s, se explora la noci\u00f3n de Fully Convolutional Networks (FCN) y su aplicaci\u00f3n en la segmentaci\u00f3n.",
+            "temas": [
+                "Introducci\u00f3n a la segmentaci\u00f3n sem\u00e1ntica y c\u00f3mo se diferencia de otras t\u00e9cnicas de segmentaci\u00f3n",
+                "Trabajo con el dataset de segmentaci\u00f3n sem\u00e1ntica Pascal VOC2012",
+                "Entendimiento de la convoluci\u00f3n transpuesta y su conexi\u00f3n con las matrices transpuestas",
+                "Exploraci\u00f3n de Fully Convolutional Networks (FCN)",
+                "Aplicaci\u00f3n de FCN en segmentaci\u00f3n sem\u00e1ntica",
+                "Entrenamiento de FCN utilizando elementos de aprendizaje profundo",
+                "Predicci\u00f3n utilizando FCN y evaluaci\u00f3n de resultados"
+            ],
+            "outro": "Esta clase brinda las habilidades para entender y aplicar t\u00e9cnicas de segmentaci\u00f3n sem\u00e1ntica, trabajar con los datasets pertinentes y utilizar la convoluci\u00f3n transpuesta. Se incrementar\u00e1 la comprensi\u00f3n de c\u00f3mo se aplican las redes completamente convolucionales en la segmentaci\u00f3n sem\u00e1ntica, c\u00f3mo entrenarlas y c\u00f3mo evaluar su rendimiento."
+        },
         "ipynbs": {
             "Segmentacion": "https://colab.research.google.com/drive/1494EYI2l6fdn6NC3yCgSjyiQMl17sCMw",
             "ejercicios": "https://colab.research.google.com/drive/1H0DIek61kgcVOlS774X9EsQnu_cb59F_",
@@ -71,7 +104,19 @@
     "7_Modelos_Generativos": {
         "name": "7_Modelos_Generativos",
         "video_urls": [],
-        "long_description": {},
+        "long_description": {
+            "intro": "Esta es la s\u00e9ptima clase correspondiente al curso de Machine Learning donde se estudian los Modelos Generativos. Se ilustra c\u00f3mo realizar la generaci\u00f3n de contenido con Redes Generativas Adversarias (GANs) y se explica su uso en el proceso de la creaci\u00f3n de im\u00e1genes.",
+            "temas": [
+                "Introducci\u00f3n a las Redes Generativas Adversarias (GANs).",
+                "Diferencias entre aprendizaje discriminativo y modelado generativo.",
+                "Arquitectura de las Redes Generativas Adversarias.",
+                "Implementaci\u00f3n de GANs para la generaci\u00f3n de im\u00e1genes.",
+                "Uso de Redes Generativas Adversarias Convolucionales Profundas (DCGANs).",
+                "Trabajo con un set de datos de im\u00e1genes de jugadores de futbol.",
+                "Aplicaci\u00f3n del aprendizaje generativo en la generaci\u00f3n de im\u00e1genes."
+            ],
+            "outro": "Esta clase permitir\u00e1 a los estudiantes comprender y aplicar Redes Generativas Adversarias (GANs) y Redes Generativas Adversarias Convolucionales Profundas (DCGANs) para la generaci\u00f3n de contenido. Desarrollar\u00e1n habilidades para discriminar entre diferentes modelos de aprendizaje y saber c\u00f3mo implementar cada uno."
+        },
         "ipynbs": {
             "GANs": "https://colab.research.google.com/drive/1Ra6sPUnRhhycZjwy-THu81wjHLgTFTOu",
             "ejercicios": "https://colab.research.google.com/drive/1aBJW7-xkMi1g3ud7eH9V5kLi5H7mWLi0",
