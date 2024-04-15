@@ -24,7 +24,7 @@
     "2_Convoluciones": {
         "name": "2_Convoluciones",
         "video_urls": [],
-        "long_description": "",
+        "long_description": {},
         "ipynbs": {
             "Capas_Convolucionales": "https://colab.research.google.com/drive/1EQuiG6MIMh2CWLRm_mH_92XkGNL7OCSy",
             "ejercicios": "https://colab.research.google.com/drive/1GVOTOKc_bONsUzNhxAeM-tChgW6yHm83",
@@ -35,7 +35,7 @@
     "3_CNN_Modernas": {
         "name": "3_CNN_Modernas",
         "video_urls": [],
-        "long_description": "",
+        "long_description": {},
         "ipynbs": {
             "1_Redes_Convolucionales": "https://colab.research.google.com/drive/17WvLakwc6bATq-jN_V7uihNYqsL7VE-9",
             "2_Transformers_Vision": "https://colab.research.google.com/drive/124fa2dLbHg_ox7TVeCVLipmfiX046BgN",
@@ -70,7 +70,7 @@
     "5_Deteccion_Objetos": {
         "name": "5_Deteccion_Objetos",
         "video_urls": [],
-        "long_description": "",
+        "long_description": {},
         "ipynbs": {
             "Deteccion_Objetos": "https://colab.research.google.com/drive/1XzeCv-zuc8hh4N9IOtjWkfWg0L-_hsLB",
             "ejercicios": "https://colab.research.google.com/drive/15X-kJhwPUTG-mRy1cvJGqhgXK6NWfo0_",
