@@ -1,0 +1,189 @@
+{
+    "1_Procesamiento_Imagenes": {
+        "name": "1_Procesamiento_Imagenes",
+        "video_urls": [],
+        "long_description": {
+            "intro": "Esta clase ofrece una mirada en profundidad al campo interdisciplinario de la Visi\u00f3n Artificial (Computer Vision), que se basa en obtener una comprensi\u00f3n de alto nivel a partir de im\u00e1genes o videos digitales. Descubre t\u00e9cnicas fundamentales de Procesamiento de Im\u00e1genes como detecci\u00f3n de bordes, filtrado gaussiano y manipulaciones simples. Explora detalladamente c\u00f3mo se organizan y manipulan las im\u00e1genes en Python y emplea la biblioteca OpenCV para tareas de Visi\u00f3n Artificial.",
+            "temas": [
+                "Introducci\u00f3n a Visi\u00f3n Artificial ",
+                "Conceptos de manipulaci\u00f3n de im\u00e1genes: filtros, detecci\u00f3n de bordes y operaciones b\u00e1sicas",
+                "Uso de OpenCV para completar tareas comunes de Visi\u00f3n Artificial",
+                "Detecci\u00f3n de caras utilizando el algoritmo de Violaa y Jones",
+                "Tratamiento de archivos de v\u00eddeo y uso de la c\u00e1mara web con OpenCV."
+            ],
+            "outro": "Esta clase proporciona habilidades fundamentales en Procesamiento de Im\u00e1genes y Visi\u00f3n Artificial, permitiendo a los estudiantes trabajar efectivamente con im\u00e1genes en Python usando OpenCV. Desarrollo de capacidades para implementar algoritmos de detecci\u00f3n de caras y para manipular y analizar videos y transmisiones de c\u00e1mara web."
+        },
+        "ipynbs": {
+            "Introduccion": "https://colab.research.google.com/drive/1jTI2GGkLeUOvieO1HLIhgTI-iTYvXaK5",
+            "ejercicios": "https://colab.research.google.com/drive/1GHHMv93369NG6GnS0VecBwrYHRp-PjGt",
+            "ejercicios_solucion": "https://colab.research.google.com/drive/1WKnXuPqnL43E4tXEKb7-YwE6E7nym3qD"
+        },
+        "materials": {}
+    },
+    "2_Redes_Convolucionales": {
+        "name": "2_Redes_Convolucionales",
+        "video_urls": [],
+        "long_description": {},
+        "ipynbs": {
+            "Capas_Convolucionales": "https://colab.research.google.com/drive/13A3EFcnoOHhYrMwQ7m74zEMdkiMZHGsI",
+            "ejercicios": "https://colab.research.google.com/drive/1-FMDdSJzanbntLgekCLOnV64kze3Kl_w",
+            "ejercicios_solucion": "https://colab.research.google.com/drive/1mCCmKSj4ld_PZOFO9tcAJhW6DZ2fZvdA"
+        },
+        "materials": {}
+    },
+    "3_Evolucion_Historica_CNN": {
+        "name": "3_Evolucion_Historica_CNN",
+        "video_urls": [],
+        "long_description": {},
+        "ipynbs": {
+            "1_Redes_Convolucionales": "https://colab.research.google.com/drive/1kEAzEtnxonLHdBXi33mddADvRF1nFrfB",
+            "2_Transformers_Vision": "https://colab.research.google.com/drive/1-XJzWF3oue1o6a0qEgAwm5vHYmKTK85V",
+            "ejercicios": "https://colab.research.google.com/drive/1kL_Hgx8h3N56EmZXgdwlrPZ80ATx2YlY",
+            "ejercicios_solucion": "https://colab.research.google.com/drive/1ANgpcx2eKfmLn6LZyv3VlhRlrCSaqQbL"
+        },
+        "materials": {}
+    },
+    "4_Transfer_Learning": {
+        "name": "4_Transfer_Learning",
+        "video_urls": [],
+        "long_description": {
+            "intro": "En la clase 4 de Transfer Learning aprender\u00e1s c\u00f3mo aplicar t\u00e9cnicas de aprendizaje transferido y realizar ajustes finos en tus modelos de Inteligencia Artificial. Esta clase cubre tanto los aspectos te\u00f3ricos como pr\u00e1cticos de estas t\u00e9cnicas, utilizando Python y Jupyter Notebook para demostrar la implementaci\u00f3n.",
+            "temas": [
+                "\u00bfQu\u00e9 es Transfer Learning y por qu\u00e9 es importante?",
+                "Aplicando Transfer Learning: ejemplos pr\u00e1cticos.",
+                "Reconocimiento de im\u00e1genes mediante ajuste fino.",
+                "La t\u00e9cnica de Transferencia de Estilos en la IA.",
+                "Visualizaci\u00f3n de las caracter\u00edsticas aprendidas por ImageNet.",
+                "Interpretabilidad de las Redes Neuronales a trav\u00e9s de la visualizaci\u00f3n por ajuste.",
+                "C\u00f3mo implementar la t\u00e9cnica de 'Fine-Tuning'."
+            ],
+            "outro": "Este curso proporcionar\u00e1 a los estudiantes una s\u00f3lida base en el campo del aprendizaje transferido y les ayudar\u00e1 a aplicarlo en la pr\u00e1ctica. Deber\u00edan ser capaces de evaluar cu\u00e1ndo el aprendizaje transferido es adecuado para sus tareas, c\u00f3mo implementarlo y c\u00f3mo interpretar los resultados del aprendizaje transferido."
+        },
+        "ipynbs": {
+            "3_TransferenciaEstilos": "https://colab.research.google.com/drive/18IuDyB3of9Z44CHxrPPzVYN-KWwkjL2d",
+            "1_VisualizacionFeatures": "https://colab.research.google.com/drive/1QGHlZmeu5JdFXfzhCl23E2LYdSJmJUP_",
+            "2_FineTuning": "https://colab.research.google.com/drive/1sqBzWg9o5MWkADFifg_xgXI0xx7Rb_sg",
+            "ejercicios": "https://colab.research.google.com/drive/1QDEjzA1YSo6O2XIrMTXZGueeMymppgBR",
+            "ejercicios_solucion": "https://colab.research.google.com/drive/1Ss9eaAWgjnx_NR6t5IV2fNQ1xrOaqMVm"
+        },
+        "materials": {}
+    },
+    "5_Deteccion_Objetos": {
+        "name": "5_Deteccion_Objetos",
+        "video_urls": [],
+        "long_description": {
+            "intro": "En esta quinta clase del curso, nos adentraremos profundamente en la Detecci\u00f3n Multibox de Disparo \u00danico (SSD), uno de los modelos m\u00e1s utilizados y esenciales para la detecci\u00f3n de objetos. Aprenderemos c\u00f3mo esta t\u00e9cnica utiliza la detecci\u00f3n de objetos a m\u00faltiples escalas para producir resultados efectivos y precisos. Exploraremos c\u00f3mo utilizar en profundidad caracter\u00edsticas como bounding boxes y anchor boxes, as\u00ed como varias t\u00e9cnicas para mejorar la precisi\u00f3n y eficiencia del modelo.",
+            "temas": [
+                "Introducci\u00f3n a la Detecci\u00f3n Multibox de Disparo \u00danico (SSD).",
+                "Comprensi\u00f3n de conceptos como bounding boxes y anchor boxes.",
+                "Exploraci\u00f3n del dise\u00f1o y la implementaci\u00f3n de SSD.",
+                "Predicci\u00f3n de clases y bounding boxes.",
+                "Concatenaci\u00f3n de predicciones para m\u00faltiples escalas.",
+                "Entrenamiento del modelo SSD en el conjunto de datos de detecci\u00f3n de pl\u00e1tanos.",
+                "Uso de las funciones de p\u00e9rdida y evaluaci\u00f3n en la detecci\u00f3n de objetos.",
+                "Aplicaci\u00f3n de la supresi\u00f3n de no m\u00e1ximos para eliminar bounding boxes predichos similares.",
+                "Mostrando bounding boxes predichas en la imagen de salida."
+            ],
+            "outro": "Al finalizar esta clase, ser\u00e1s capaz de implementar y aplicar eficientemente el modelo de Detecci\u00f3n Multibox de Disparo \u00danico (SSD) para la detecci\u00f3n de objetos. Podr\u00e1s trabajar en la optimizaci\u00f3n de este modelo a trav\u00e9s de la predicci\u00f3n y evaluaci\u00f3n de bounding boxes de varias escalas. Esta clase te permitir\u00e1 aplicar t\u00e9cnicas avanzadas de inteligencia artificial y ciencia de datos en problemas de detecci\u00f3n de objetos."
+        },
+        "ipynbs": {
+            "3. SSD": "https://colab.research.google.com/drive/17cFvqaZ75pmisybPcOU6YcO-5kN6XnEU",
+            "1. Detecci\u00f3n de Objetos": "https://colab.research.google.com/drive/1GmmqN6Ul3SLUCRcneQORADoCEgemvyog",
+            "2. AnchorBoxes": "https://colab.research.google.com/drive/1O5XW7AAMJVbcLWge1bo4LVffMMdDe27r",
+            "ejercicios": "https://colab.research.google.com/drive/15X-kJhwPUTG-mRy1cvJGqhgXK6NWfo0_",
+            "ejercicios_solucion": "https://colab.research.google.com/drive/12Fo1JMlDbdGmNhA7bS8yRKFSWaMCsLCO"
+        },
+        "materials": {}
+    },
+    "6_Segmentacion": {
+        "name": "6_Segmentacion",
+        "video_urls": [],
+        "long_description": {
+            "intro": "En esta parte del curso vamos a explorar un tema muy avanzado en la rama de procesamiento de im\u00e1genes dentro del aprendizaje autom\u00e1tico. Hablaremos sobre la segmentaci\u00f3n sem\u00e1ntica y c\u00f3mo podemos realizarla utilizando el enfoque de Redes Completamente Convolucionales (FCN por sus siglas en ingl\u00e9s). Aprenderemos a utilizar Python y librer\u00edas como Pytorch para construir y entrenar estos modelos.",
+            "temas": [
+                "Segmentaci\u00f3n Sem\u00e1ntica: Delimitando instancias de diferentes clases a nivel pixel.",
+                "Detecci\u00f3n de objetos Vs Segmentaci\u00f3n sem\u00e1ntica.",
+                "Dataset Pascal VOC2012.",
+                "Convoluci\u00f3n transpuesta y su uso para el \"upsampling\".",
+                "El t\u00e9rmino err\u00f3neo de capas \"deconvolucional\".",
+                "Fen\u00f3meno del aumento de dimensionalidad.",
+                "Conexi\u00f3n entre la convoluci\u00f3n y la matrix transpuesta.",
+                "Introducci\u00f3n a las Redes Completamente Convolucionales (FCN).",
+                "Entrenamiento y predicci\u00f3n con FCN."
+            ],
+            "outro": "En esta parte del curso, los estudiantes aprender\u00e1n sobre segmentaci\u00f3n sem\u00e1ntica y c\u00f3mo se puede lograr utilizando redes convolucionales profundas. Tendr\u00e1n la oportunidad de aplicar sus habilidades en Python y Pytorch en la implementaci\u00f3n de estos modelos. Tambi\u00e9n podr\u00e1n entender y explicar conceptos clave como la convoluci\u00f3n transpuesta y las FCN. Este conocimiento aumentar\u00e1 sus habilidades en el procesamiento de im\u00e1genes en el campo de la inteligencia artificial."
+        },
+        "ipynbs": {
+            "Segmentacion": "https://colab.research.google.com/drive/1494EYI2l6fdn6NC3yCgSjyiQMl17sCMw",
+            "ejercicios": "https://colab.research.google.com/drive/1H0DIek61kgcVOlS774X9EsQnu_cb59F_",
+            "ejercicios_solucion": "https://colab.research.google.com/drive/1Qv41hx97ET9__hhnq2J0fjEimb_4vmq3"
+        },
+        "materials": {}
+    },
+    "7_Modelos_Generativos_No_Condicionados": {
+        "name": "7_Modelos_Generativos_No_Condicionados",
+        "video_urls": [],
+        "long_description": {
+            "intro": "En esta clase, exploraremos Modelos Generativos No Condicinados utilizando Python. Aprenderemos sobre Redes Generativas Adversarias, o GAN, que se utilizan para generar nuevos datos sint\u00e9ticos que se parecen a un conjunto de entrenamiento dado. Nos centramos principalmente en la generaci\u00f3n de im\u00e1genes, incluyendo pr\u00e1cticas con conjuntos de datos de im\u00e1genes y construcci\u00f3n de GAN desde cero.",
+            "temas": [
+                "Introducci\u00f3n a los Modelos Generativos No Condicinados y su importancia en la ciencia de datos.",
+                "Explicaci\u00f3n y uso de las Redes Generativas Adversarias (GAN).",
+                "Generaci\u00f3n de im\u00e1genes a partir de datos sint\u00e9ticos creados.",
+                "Construcci\u00f3n de GAN (Generador y Discriminador) desde cero en Python.",
+                "Uso de Redes Generativas Adversarias Convolucionales Profundas (DCGAN), una variante de GAN, para generar im\u00e1genes.",
+                "Entrenamiento de redes usando datos de im\u00e1genes existentes."
+            ],
+            "outro": "Esta clase es esencial para entender la teor\u00eda detr\u00e1s de GAN y c\u00f3mo implementar estas redes en Python. Obtendr\u00e1s habilidades pr\u00e1cticas en la construcci\u00f3n de GAN y la generaci\u00f3n de nuevos datos sint\u00e9ticos a partir de un conjunto de entrenamiento dado. Al final del curso, los estudiantes estar\u00e1n expuestos a pr\u00e1cticas avanzadas de generaci\u00f3n y discriminaci\u00f3n de im\u00e1genes basadas en GANs."
+        },
+        "ipynbs": {
+            "GANs": "https://colab.research.google.com/drive/1LtzcYe3Y0Kpmr0shdGa88Eiock4-_593",
+            "ModelosDeDifusi\u00f3n": "https://colab.research.google.com/drive/1bVqnBlbENjdmwxPjs34Jadp0TCLn8Oh4",
+            "VAEs": "https://colab.research.google.com/drive/1x3xLDXFVmP98LKshUn1BNf22GNq63jw3",
+            "ejercicios": "https://colab.research.google.com/drive/1LzGGh9ILB99Rm2ejY3TyLuMc7yJONtnu",
+            "ejercicios_solucion": "https://colab.research.google.com/drive/1bY5TibCLswgnr0eFZH9PEZBs3SboMCOL"
+        },
+        "materials": {}
+    },
+    "8_Transformers_Vision": {
+        "name": "8_Transformers_Vision",
+        "video_urls": [],
+        "long_description": {
+            "intro": "En esta clase, vamos a explorar el uso de transformers para visi\u00f3n (ViT) y su aplicaci\u00f3n en la clasificaci\u00f3n de im\u00e1genes. La arquitectura transformer, que inicialmente se propuso para el aprendizaje secuencia a secuencia, ha demostrado su eficiencia en diversas tareas del procesamiento del lenguaje natural. Esta clase pretende adaptarla para el modelamiento de datos de imagen.",
+            "temas": [
+                "Concepto de Transformers para Visi\u00f3n (ViT).",
+                "Comparaci\u00f3n de Convolucionales Neuronales y ViT.",
+                "Introducci\u00f3n a los conceptos de sesgo inductivo.",
+                "Traducci\u00f3n del flujo de tensores del modelo original de procesamiento de lenguaje natural a ViT.",
+                "Introducci\u00f3n a la auto-atenci\u00f3n y m\u00faltiple cabezal de atenci\u00f3n.",
+                "Codificaci\u00f3n posicional.",
+                "Conexiones residuales y normalizaci\u00f3n de capa.",
+                "Entrenamiento de un ViT desde cero.",
+                "Fine-tuning sobre un ViT pre-entrenado."
+            ],
+            "outro": "Esta clase busca mejorar la comprensi\u00f3n de los alumnos acerca de los transfomers y su aplicaci\u00f3n en la visi\u00f3n por computadora. Desarrollar\u00e1n la habilidad de entrenar \u00a1y realizar fine-tuning a un ViT utilizando datos de im\u00e1genes en Python. Este es un paso cr\u00edtico para aplicar la t\u00e9cnica de transformers en el campo de la visi\u00f3n por computadora."
+        },
+        "ipynbs": {
+            "Transformers_Vision": "https://colab.research.google.com/drive/1zeKJRRMm_6EDVgBWjTcIV4rauhc7LeZ1"
+        },
+        "materials": {}
+    },
+    "9_Imagenes_y_Lenguaje": {
+        "name": "9_Imagenes_y_Lenguaje",
+        "video_urls": [],
+        "long_description": {
+            "intro": "Aprender\u00e1s sobre el modelo CLIP de OpenAI y c\u00f3mo puede ser implementado con Pytorch. Discutiremos su importancia en la comprensi\u00f3n de im\u00e1genes y lenguaje, las limitaciones de los enfoques tradicionales de Computer Vision, y c\u00f3mo CLIP supera estas limitaciones a trav\u00e9s de embeddings multimodales. Adem\u00e1s, brindamos un tutorial sobre c\u00f3mo entrenar el modelo CLIP utilizando el dataset flicker30k.",
+            "temas": [
+                "Importancia de los embeddings multimodales.",
+                "Limitaciones de los enfoques de Computer Vision.",
+                "Descripci\u00f3n del modelo CLIP de OpenAI.",
+                "Implementaci\u00f3n y entrenamiento de CLIP con Pytorch.",
+                "Uso del modelo para la clasificaci\u00f3n de im\u00e1genes."
+            ],
+            "outro": "Adem\u00e1s de reforzar tus habilidades de Python, desarrollar\u00e1s tu comprensi\u00f3n de los modelos de aprendizaje profundo como CLIP y su implementaci\u00f3n pr\u00e1ctica en Pytorch. Tambi\u00e9n aprender\u00e1s sobre la importancia de los embeddings multimodales y c\u00f3mo se pueden utilizar para la clasificaci\u00f3n de im\u00e1genes."
+        },
+        "ipynbs": {
+            "CLIP_ Im\u00e1genes y Lenguaje Natural": "https://colab.research.google.com/drive/1tFELXAqUe2wUrkvND3kJUWIkCCUsLcHf"
+        },
+        "materials": {}
+    }
+}
