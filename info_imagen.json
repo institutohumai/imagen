@@ -25,7 +25,7 @@
     "2_Redes_Convolucionales": {
         "name": "Redes Convolucionales",
         "video_urls": [
-"https://www.youtube.com/embed/VuyRMzpxzxo"
+            "https://www.youtube.com/embed/VuyRMzpxzxo"
         ],
         "long_description": {},
         "ipynbs": {
@@ -37,9 +37,11 @@
     },
     "3_Evolucion_Historica_CNN": {
         "name": "Evoluci\u00f3n_Hist\u00f3rica_CNN",
-        "video_urls": ["https://www.youtube.com/embed/wtHUh6ZxuU8",
-        "https://www.youtube.com/embed/7iiRs_eaUMw",
-        "https://www.youtube.com/embed/jiJfhCHukz0"],
+        "video_urls": [
+            "https://www.youtube.com/embed/wtHUh6ZxuU8",
+            "https://www.youtube.com/embed/7iiRs_eaUMw",
+            "https://www.youtube.com/embed/jiJfhCHukz0"
+        ],
         "long_description": {},
         "ipynbs": {
             "1_Redes_Convolucionales": "https://colab.research.google.com/drive/1kEAzEtnxonLHdBXi33mddADvRF1nFrfB",
@@ -194,8 +196,7 @@
         "materials": {}
     },
     "9_Imagenes_y_Lenguaje": {
-        "name": "Im\u00e1genes_y_Lenguaje"
-,
+        "name": "Im\u00e1genes_y_Lenguaje",
         "video_urls": [
             "https://www.youtube.com/embed/2QeO8yCyvoI",
             "https://www.youtube.com/embed/fYacAOF_A_U",
@@ -215,18 +216,6 @@
         "ipynbs": {
             "CLIP_ Im\u00e1genes y Lenguaje Natural": "https://colab.research.google.com/drive/1tFELXAqUe2wUrkvND3kJUWIkCCUsLcHf"
         },
-        "materials": {}
-    }
-,
-    "10_Modelos_Fundacionales": {
-        "name": "Modelos Fundacionales"
-,
-        "video_urls": [
-            "https://www.youtube.com/embed/1bQTRiheXow",
-            "https://www.youtube.com/embed/UZ9PzFp6aVQ"
-        ],
-        "long_description": {},
-        "ipynbs": { },
         "materials": {}
     }
 }
