@@ -217,4 +217,16 @@
         },
         "materials": {}
     }
+,
+    "10_Modelos_Fundacionales": {
+        "name": "Modelos Fundacionales"
+,
+        "video_urls": [
+            "https://www.youtube.com/embed/1bQTRiheXow",
+            "https://www.youtube.com/embed/UZ9PzFp6aVQ"
+        ],
+        "long_description": {},
+        "ipynbs": { },
+        "materials": {}
+    }
 }
