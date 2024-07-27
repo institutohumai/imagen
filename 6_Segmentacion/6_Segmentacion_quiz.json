@@ -1,0 +1,74 @@
+{
+    "0":{
+        "Question":"\u00bfC\u00f3mo funciona la segmentaci\u00f3n sem\u00e1ntica en las im\u00e1genes?",
+        "Answer 1":"Reconoce y comprende los datos a nivel de filas.",
+        "Answer 2":"Se usa para el etiquetado y predicci\u00f3n de regiones sem\u00e1nticas a nivel de p\u00edxel.",
+        "Answer 3":"Se usa para el etiquetado y predicci\u00f3n de regiones sem\u00e1nticas a nivel de filas.",
+        "Answer 4":"Reconoce y etiqueta objetos en las im\u00e1genes a nivel de p\u00edxel.",
+        "Correct answer(s)":"4"
+    },
+    "1":{
+        "Question":"La segmentaci\u00f3n de instancias difiere de la segmentaci\u00f3n sem\u00e1ntica en que:",
+        "Answer 1":"No distingue diferentes objetos.",
+        "Answer 2":"Distingue no solo la sem\u00e1ntica, sino tambi\u00e9n diferentes instancias de objetos.",
+        "Answer 3":"Solo utiliza informaci\u00f3n de etiquetas de imagen durante el entrenamiento.",
+        "Answer 4":"Todas las anteriores.",
+        "Correct answer(s)":"3"
+    },
+    "2":{
+        "Question":"Con respecto a la segmentaci\u00f3n de im\u00e1genes:",
+        "Answer 1":"No necesita informaci\u00f3n de etiqueta sobre los p\u00edxeles de la imagen durante el entrenamiento.",
+        "Answer 2":"Garantiza que las regiones segmentadas tengan la sem\u00e1ntica que esperamos obtener durante la predicci\u00f3n.",
+        "Answer 3":"Ambas opciones son correctas.",
+        "Answer 4":"Ninguna de las opciones es correcta.",
+        "Correct answer(s)":"3"
+    },
+    "3":{
+        "Question":"\u00bfQu\u00e9 son las Fully Convolutional Networks?",
+        "Answer 1":"Redes que usan la CNN para transformar los p\u00edxeles de la imagen en atributos de imagen.",
+        "Answer 2":"Redes que usan la CNN para transformar los p\u00edxeles de la imagen en clases de p\u00edxeles.",
+        "Answer 3":"Redes que usan la CNN para clasificar las im\u00e1genes a nivel fila.",
+        "Answer 4":"Ninguna de las anteriores.",
+        "Correct answer(s)":"2"
+    },
+    "4":{
+        "Question":"\u00bfCu\u00e1les son las capas convolucionales transpuestas?",
+        "Answer 1":"Capas que est\u00e1n dise\u00f1adas para aumentar la altura y el ancho de los mapas de caracter\u00edsticas.",
+        "Answer 2":"Capas que est\u00e1n dise\u00f1adas para reducir la altura y ancho de los mapas de caracter\u00edsticas.",
+        "Answer 3":"Capas que est\u00e1n dise\u00f1adas para aumentar la altura y el ancho de las entradas.",
+        "Answer 4":"Ambas opciones a y c son correctas.",
+        "Correct answer(s)":"4"
+    },
+    "5":{
+        "Question":"\u00bfPara qu\u00e9 sirve la concatenaci\u00f3n de la entrada en el modelo Fully Convolutional Network (FCN)?",
+        "Answer 1":"La concatenaci\u00f3n de la entrada se utiliza para categorizar las im\u00e1genes.",
+        "Answer 2":"La concatenaci\u00f3n de la entrada es previa a la capa de average pooling global.",
+        "Answer 3":"La concatenaci\u00f3n de la entrada se utiliza para mantener una correspondencia uno-a-uno entre las entradas y las capas de convoluci\u00f3n.",
+        "Answer 4":"Ninguna de las opciones es correcta.",
+        "Correct answer(s)":"3"
+    },
+    "6":{
+        "Question":"\u00bfC\u00f3mo trabaja una convoluci\u00f3n transpuesta con el padding y strides?",
+        "Answer 1":"El padding se aplica a la entrada y el stride se aplica a los resultados intermedios.",
+        "Answer 2":"El padding se aplica a la salida y el stride se aplica a los resultados intermedios.",
+        "Answer 3":"El padding se aplica a los resultados intermedios y el stride se aplica a la salida.",
+        "Answer 4":"El padding y el stride se aplican a la entrada.",
+        "Correct answer(s)":"2"
+    },
+    "7":{
+        "Question":"\u00bfC\u00f3mo funciona la interpolaci\u00f3n bilineal en el upscaling de im\u00e1genes?",
+        "Answer 1":"Calcula el valor del p\u00edxel en la imagen de salida interpolando los cuatro p\u00edxeles m\u00e1s cercanos al p\u00edxel actual en la imagen de entrada.",
+        "Answer 2":"Calcula el valor del p\u00edxel en la imagen de salida interpolando los cuatro p\u00edxeles m\u00e1s cercanos al p\u00edxel correspondiente a la misma posici\u00f3n en la imagen de entrada.",
+        "Answer 3":"Calcula el valor del p\u00edxel en la imagen de salida interpolando los dos p\u00edxeles diagonales m\u00e1s pr\u00f3ximos en la imagen de entrada.",
+        "Answer 4":"Ninguna de las anteriores.",
+        "Correct answer(s)":"2"
+    },
+    "8":{
+        "Question":"\u00bfCu\u00e1l es la principal diferencia entre la convoluci\u00f3n transpuesta y la deconvoluci\u00f3n?",
+        "Answer 1":"La convoluci\u00f3n transpuesta aumenta el tama\u00f1o de las im\u00e1genes, mientras que la deconvoluci\u00f3n las reduce.",
+        "Answer 2":"La convoluci\u00f3n transpuesta es una t\u00e9cnica de upsampling, mientras que la deconvoluci\u00f3n es de downsampling.",
+        "Answer 3":"La convoluci\u00f3n transpuesta solo invierte la convoluci\u00f3n est\u00e1ndar en t\u00e9rminos de dimensiones, pero la deconvoluci\u00f3n tambi\u00e9n invierte los valores. ",
+        "Answer 4":"No hay diferencia.",
+        "Correct answer(s)":"3"
+    }
+}

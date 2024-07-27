@@ -1,0 +1,82 @@
+{
+    "0":{
+        "Question":"\u00bfCu\u00e1l es el prop\u00f3sito del campo de la Visi\u00f3n Artificial?",
+        "Answer 1":"Recrear im\u00e1genes digitales del mundo real",
+        "Answer 2":"Manipular im\u00e1genes para crear arte",
+        "Answer 3":"Hacer que las computadoras obtengan una comprensi\u00f3n de alto nivel a partir de im\u00e1genes o videos digitales",
+        "Answer 4":"Desarrollar nuevos formatos de imagen",
+        "Correct answer(s)":"3"
+    },
+    "1":{
+        "Question":"\u00bfQu\u00e9 es un pixel en el contexto de una imagen digital?",
+        "Answer 1":"La cantidad de luz que emite una imagen",
+        "Answer 2":"Una l\u00ednea de c\u00f3digo que dibuja una imagen",
+        "Answer 3":"Una unidad de medida para el tama\u00f1o de la imagen",
+        "Answer 4":"La menor unidad homog\u00e9nea en color que forma parte de una imagen digital",
+        "Correct answer(s)":"4"
+    },
+    "2":{
+        "Question":"\u00bfCu\u00e1l es la funci\u00f3n de cv2.cvtColor() en OpenCV?",
+        "Answer 1":"Cambia el tama\u00f1o de una imagen",
+        "Answer 2":"Aplica un filtro a una imagen",
+        "Answer 3":"Cambia el espacio de colores de una imagen",
+        "Answer 4":"Recorta una imagen",
+        "Correct answer(s)":"3"
+    },
+    "3":{
+        "Question":"\u00bfQu\u00e9 son los espacios de color?",
+        "Answer 1":"Modelos matem\u00e1ticos que describen la forma en que los colores pueden representarse",
+        "Answer 2":"Espacios reservados en la memoria de la computadora para el almacenamiento de colores",
+        "Answer 3":"T\u00e9cnicas de codificaci\u00f3n utilizadas para comprimir im\u00e1genes ",
+        "Answer 4":"Unidades de medida para el brillo de los colores",
+        "Correct answer(s)":"1"
+    },
+    "4":{
+        "Question":"\u00bfCu\u00e1l de los siguientes no es un tipo de espacio de color?",
+        "Answer 1":"RGB",
+        "Answer 2":"PST",
+        "Answer 3":"HSV ",
+        "Answer 4":"CMYK",
+        "Correct answer(s)":"2"
+    },
+    "5":{
+        "Question":"\u00bfQu\u00e9 implicaciones tiene la aplicaci\u00f3n de un filtro gaussiano en una imagen?",
+        "Answer 1":"Modifica la orientaci\u00f3n de los colores en la imagen",
+        "Answer 2":"Suaviza los bordes y reduce el ruido a cambio de una p\u00e9rdida de nitidez",
+        "Answer 3":"Aumenta el contraste de la imagen",
+        "Answer 4":"Cambia la paleta de colores de la imagen",
+        "Correct answer(s)":"2"
+    },
+    "6":{
+        "Question":"\u00bfQu\u00e9 es el \"Bounding box\" en la localizaci\u00f3n de objetos?",
+        "Answer 1":"Es el rect\u00e1ngulo que delimita la localizaci\u00f3n de un objeto en una imagen",
+        "Answer 2":"Es un tipo de transformaci\u00f3n aplicada a los objetos en una imagen",
+        "Answer 3":"Es el espacio en el que se mueve un objeto en una imagen",
+        "Answer 4":"Es el algoritmo que se utiliza para identificar objetos en una imagen",
+        "Correct answer(s)":"1"
+    },
+    "7":{
+        "Question":"\u00bfQu\u00e9 significa el t\u00e9rmino \"RGB\"?",
+        "Answer 1":"Regi\u00f3n de Grado Binario",
+        "Answer 2":"Reconstrucci\u00f3n de Gr\u00e1ficos Binarios",
+        "Answer 3":"Red Green Blue",
+        "Answer 4":"Renderizado de Gr\u00e1ficos Bidimensionales",
+        "Correct answer(s)":"3"
+    },
+    "8":{
+        "Question":"\u00bfQu\u00e9 es una cascada en el contexto de los algoritmos de clasificaci\u00f3n de im\u00e1genes?",
+        "Answer 1":"Es un tipo de error que puede ocurrir durante la clasificaci\u00f3n",
+        "Answer 2":"Es una t\u00e9cnica de aprendizaje profundo",
+        "Answer 3":"Es una serie de algoritmos de clasificaci\u00f3n que se encadenan uno tras otro",
+        "Answer 4":"Es un tipo de filtro que se aplica a la imagen antes de la clasificaci\u00f3n",
+        "Correct answer(s)":"3"
+    },
+    "9":{
+        "Question":"\u00bfQu\u00e9 hace el m\u00e9todo cv2.putText en OpenCV?",
+        "Answer 1":"Inserta una subimagen en la imagen principal",
+        "Answer 2":"A\u00f1ade texto a la imagen",
+        "Answer 3":"Modifica las propiedades del texto en la imagen",
+        "Answer 4":"Traduce el texto de la imagen a diferentes idiomas",
+        "Correct answer(s)":"2"
+    }
+}

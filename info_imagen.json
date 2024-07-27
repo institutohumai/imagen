@@ -27,7 +27,7 @@
         "video_urls": [
             "https://www.youtube.com/embed/VuyRMzpxzxo"
         ],
-        "long_description": {},
+        "long_description": "",
         "ipynbs": {
             "Capas_Convolucionales": "https://colab.research.google.com/drive/13A3EFcnoOHhYrMwQ7m74zEMdkiMZHGsI",
             "ejercicios": "https://colab.research.google.com/drive/1-FMDdSJzanbntLgekCLOnV64kze3Kl_w",
@@ -42,7 +42,7 @@
             "https://www.youtube.com/embed/7iiRs_eaUMw",
             "https://www.youtube.com/embed/jiJfhCHukz0"
         ],
-        "long_description": {},
+        "long_description": "",
         "ipynbs": {
             "1_Redes_Convolucionales": "https://colab.research.google.com/drive/1kEAzEtnxonLHdBXi33mddADvRF1nFrfB",
             "2_Transformers_Vision": "https://colab.research.google.com/drive/1-XJzWF3oue1o6a0qEgAwm5vHYmKTK85V",

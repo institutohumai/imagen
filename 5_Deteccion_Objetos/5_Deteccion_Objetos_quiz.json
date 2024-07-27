@@ -1,0 +1,82 @@
+{
+    "0":{
+        "Question":"\u00bfQu\u00e9 es la Detecci\u00f3n Multibox de Disparo \u00danico (SSD)?",
+        "Answer 1":"Un modelo de regresi\u00f3n de objetos.",
+        "Answer 2":"Una t\u00e9cnica para segmentar im\u00e1genes.",
+        "Answer 3":"Un modelo para detecci\u00f3n de objetos.",
+        "Answer 4":"Una t\u00e9cnica para clasificaci\u00f3n de im\u00e1genes.",
+        "Correct answer(s)":"3"
+    },
+    "1":{
+        "Question":"\u00bfC\u00f3mo se genera un anchor box en SSD?",
+        "Answer 1":"Agregando alto y ancho a una ventana deslizante.",
+        "Answer 2":"Prediciendo la clase y desplazamientos de una ventana deslizante.",
+        "Answer 3":"Centr\u00e1ndolos en cada posici\u00f3n espacial de los mapas de caracter\u00edsticas.",
+        "Answer 4":"Ninguna de las anteriores.",
+        "Correct answer(s)":"3"
+    },
+    "2":{
+        "Question":"En la capa de predicci\u00f3n de bounding boxes, \u00bfcu\u00e1l es la diferencia con la capa de predicci\u00f3n de clases?",
+        "Answer 1":"Predice las clases de las bounding boxes.",
+        "Answer 2":"Predice los cuatro desplazamientos en lugar de (\\( q+1 \\)) clases.",
+        "Answer 3":"Predice las ubicaciones de las bounding boxes en lugar de la clase.",
+        "Answer 4":"Todas las anteriores son correctas.",
+        "Correct answer(s)":"2"
+    },
+    "3":{
+        "Question":"\u00bfC\u00f3mo se ampl\u00eda el campo receptivo de cada unidad en los mapas de caracter\u00edsticas de salida en un bloque de downsampling?",
+        "Answer 1":"Aplicando una capa convolucional seguida de una capa max-pooling.",
+        "Answer 2":"Aplicando solo una capa convolucional.",
+        "Answer 3":"Aumentando la profundidad de la red.",
+        "Answer 4":"Disminuyendo la profundidad de la red.",
+        "Correct answer(s)":"1"
+    },
+    "4":{
+        "Question":"\u00bfC\u00f3mo se une la salida de predicci\u00f3n a diferentes escalas para una computaci\u00f3n m\u00e1s eficiente?",
+        "Answer 1":"Se apilan uno encima del otro.",
+        "Answer 2":"Se transforman en un formato m\u00e1s consistente y se concatenan a lo largo de la dimensi\u00f3n 1.",
+        "Answer 3":"Se suman juntos.",
+        "Answer 4":"Se multiplican juntos.",
+        "Correct answer(s)":"2"
+    },
+    "5":{
+        "Question":"\u00bfCu\u00e1l es el prop\u00f3sito del Bloque Base de la Red en el modelo de detecci\u00f3n de objetos SSD?",
+        "Answer 1":"Extraer caracter\u00edsticas de las im\u00e1genes de entrada.",
+        "Answer 2":"Ampliar el campo receptivo de cada unidad.",
+        "Answer 3":"Generar mapas de caracter\u00edsticas a diferentes escalas.",
+        "Answer 4":"Calcular la p\u00e9rdida de las bounding boxes.",
+        "Correct answer(s)":"1"
+    },
+    "6":{
+        "Question":"\u00bfQu\u00e9 tipo de p\u00e9rdida se utiliza en el problema de regresi\u00f3n para la detecci\u00f3n de objetos en el modelo SSD?",
+        "Answer 1":"P\u00e9rdida de entrop\u00eda cruzada.",
+        "Answer 2":"P\u00e9rdida de la norma \\(\\ell_1\\).",
+        "Answer 3":"Error cuadr\u00e1tico medio.",
+        "Answer 4":"P\u00e9rdida de Hinge.",
+        "Correct answer(s)":"2"
+    },
+    "7":{
+        "Question":"\u00bfC\u00f3mo se generan las bounding boxes en el modelo SSD?",
+        "Answer 1":"Usando solo las clases predichas.",
+        "Answer 2":"Usando solo los desplazamientos predichos.",
+        "Answer 3":"Usando el tama\u00f1o de los mapas de caracter\u00edsticas.",
+        "Answer 4":"Usando los anchor boxes y sus desplazamientos predichos.",
+        "Correct answer(s)":"4"
+    },
+    "8":{
+        "Question":"\u00bfCu\u00e1l declaraci\u00f3n es correcta acerca de la supresi\u00f3n de no m\u00e1ximos en la detecci\u00f3n de objetos?",
+        "Answer 1":"Se usa para eliminar todas las bounding boxes.",
+        "Answer 2":"Se usa para eliminar bounding boxes predichas similares.",
+        "Answer 3":"Se usa para seleccionar un \u00fanico objeto de inter\u00e9s.",
+        "Answer 4":"Se usa para reducir la resoluci\u00f3n de la imagen.",
+        "Correct answer(s)":"2"
+    },
+    "9":{
+        "Question":"\u00bfQu\u00e9 se muestra como salida en la predicci\u00f3n con el modelo SSD?",
+        "Answer 1":"Todas las bounding boxes predichas.",
+        "Answer 2":"S\u00f3lo la bounding box con mayor confianza.",
+        "Answer 3":"Todas las bounding boxes predichas con una confianza de 0.9 o superior.",
+        "Answer 4":"Ninguna de las anteriores.",
+        "Correct answer(s)":"3"
+    }
+}
