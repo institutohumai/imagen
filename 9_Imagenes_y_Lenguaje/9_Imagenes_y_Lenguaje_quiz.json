@@ -1,0 +1,74 @@
+{
+    "1": {
+        "Question": "\u00bfQu\u00e9 significa CLIP y cu\u00e1l es su prop\u00f3sito principal?",
+        "Answer 1": "Collaborative Learning Image Processor; procesar im\u00e1genes para aprendizaje colaborativo",
+        "Answer 2": "Contrastive Language\u2013Image Pretraining; aprender representaciones conjuntas de im\u00e1genes y texto",
+        "Answer 3": "Cross-Language Interaction Protocol; facilitar la traducci\u00f3n entre idiomas",
+        "Answer 4": "Contextual Learning Interface Platform; integrar interfaces de aprendizaje contextual",
+        "Correct answer(s)": "2"
+    },
+    "2": {
+        "Question": "\u00bfCu\u00e1l es la funci\u00f3n del encoder de im\u00e1genes en el modelo CLIP?",
+        "Answer 1": "Generar descripciones textuales a partir de im\u00e1genes",
+        "Answer 2": "Codificar im\u00e1genes en un espacio de caracter\u00edsticas",
+        "Answer 3": "Traducir im\u00e1genes a diferentes idiomas",
+        "Answer 4": "Mejorar la resoluci\u00f3n de las im\u00e1genes",
+        "Correct answer(s)": "2"
+    },
+    "3": {
+        "Question": "\u00bfQu\u00e9 tipo de transformador se utiliza para el encoder de texto en CLIP?",
+        "Answer 1": "Redes Convolucionales",
+        "Answer 2": "Redes Recurrentes",
+        "Answer 3": "Transformers",
+        "Answer 4": "Perceptrones Multicapa",
+        "Correct answer(s)": "3"
+    },
+    "4": {
+        "Question": "\u00bfC\u00f3mo se calculan las similitudes entre im\u00e1genes y textos en el modelo CLIP?",
+        "Answer 1": "Usando la distancia euclidiana",
+        "Answer 2": "Mediante similitudes de coseno escaladas",
+        "Answer 3": "A trav\u00e9s de la distancia Manhattan",
+        "Answer 4": "Con la correlaci\u00f3n de Pearson",
+        "Correct answer(s)": "2"
+    },
+    "5": {
+        "Question": "\u00bfQu\u00e9 es la entrop\u00eda cruzada sim\u00e9trica y c\u00f3mo se utiliza en CLIP?",
+        "Answer 1": "Una medida de la dispersi\u00f3n de palabras en una imagen; para ajustar el brillo",
+        "Answer 2": "Una funci\u00f3n de p\u00e9rdida; para evaluar la similitud entre im\u00e1genes y descripciones",
+        "Answer 3": "Un m\u00e9todo de normalizaci\u00f3n; para escalar las representaciones",
+        "Answer 4": "Una t\u00e9cnica de aumento de datos; para generar nuevas im\u00e1genes",
+        "Correct answer(s)": "2"
+    },
+    "6": {
+        "Question": "\u00bfQu\u00e9 tipos de redes neuronales se utilizan en el encoder de im\u00e1genes de CLIP?",
+        "Answer 1": "Redes recurrentes",
+        "Answer 2": "Redes convolucionales y transformadores de visi\u00f3n",
+        "Answer 3": "Redes de memoria a corto plazo",
+        "Answer 4": "Redes de propagaci\u00f3n inversa",
+        "Correct answer(s)": "2"
+    },
+    "7": {
+        "Question": "\u00bfC\u00f3mo se proyectan las representaciones de im\u00e1genes y textos en el espacio multimodal?",
+        "Answer 1": "Mediante redes neuronales recurrentes",
+        "Answer 2": "Utilizando matrices de proyecci\u00f3n aprendidas",
+        "Answer 3": "A trav\u00e9s de la normalizaci\u00f3n batch",
+        "Answer 4": "Con redes de autoencoders",
+        "Correct answer(s)": "2"
+    },
+    "8": {
+        "Question": "\u00bfQu\u00e9 es el par\u00e1metro de temperatura \"t\" y c\u00f3mo afecta a las similitudes calculadas en CLIP?",
+        "Answer 1": "Controla la cantidad de ruido en las im\u00e1genes",
+        "Answer 2": "Ajusta la escala de las similitudes calculadas",
+        "Answer 3": "Regula la velocidad de aprendizaje del modelo",
+        "Answer 4": "Determina la longitud de las descripciones de texto",
+        "Correct answer(s)": "1"
+    },
+    "9": {
+        "Question": "\u00bfC\u00f3mo se define y calcula la funci\u00f3n de p\u00e9rdida en el modelo CLIP?",
+        "Answer 1": "Suma de p\u00e9rdidas cuadr\u00e1ticas",
+        "Answer 2": "Media de p\u00e9rdidas de entrop\u00eda cruzada",
+        "Answer 3": "Producto de p\u00e9rdidas de Huber",
+        "Answer 4": "Diferencia de p\u00e9rdidas de hinge",
+        "Correct answer(s)": "1"
+    }
+}
