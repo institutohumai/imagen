@@ -27,7 +27,7 @@
         "video_urls": [
             "https://www.youtube.com/embed/VuyRMzpxzxo"
         ],
-        "long_description": "",
+        "long_description": {},
         "ipynbs": {
             "Capas_Convolucionales": "https://colab.research.google.com/drive/13A3EFcnoOHhYrMwQ7m74zEMdkiMZHGsI",
             "ejercicios": "https://colab.research.google.com/drive/1-FMDdSJzanbntLgekCLOnV64kze3Kl_w",
@@ -42,7 +42,7 @@
             "https://www.youtube.com/embed/7iiRs_eaUMw",
             "https://www.youtube.com/embed/jiJfhCHukz0"
         ],
-        "long_description": "",
+        "long_description": {},
         "ipynbs": {
             "1_Redes_Convolucionales": "https://colab.research.google.com/drive/1kEAzEtnxonLHdBXi33mddADvRF1nFrfB",
             "2_Transformers_Vision": "https://colab.research.google.com/drive/1-XJzWF3oue1o6a0qEgAwm5vHYmKTK85V",
@@ -191,7 +191,9 @@
             "outro": "Esta clase busca mejorar la comprensi\u00f3n de los alumnos acerca de los transfomers y su aplicaci\u00f3n en la visi\u00f3n por computadora. Desarrollar\u00e1n la habilidad de entrenar \u00a1y realizar fine-tuning a un ViT utilizando datos de im\u00e1genes en Python. Este es un paso cr\u00edtico para aplicar la t\u00e9cnica de transformers en el campo de la visi\u00f3n por computadora."
         },
         "ipynbs": {
-            "Transformers_Vision": "https://colab.research.google.com/drive/1zeKJRRMm_6EDVgBWjTcIV4rauhc7LeZ1"
+            "Transformers_Vision": "https://colab.research.google.com/drive/1zeKJRRMm_6EDVgBWjTcIV4rauhc7LeZ1",
+            "ejercicios": "https://colab.research.google.com/drive/1ghmHMXLBdk9maPvUmYSdv9RlVsUKE2ty",
+            "ejercicios_solucion": "https://colab.research.google.com/drive/1MD_En1fx5sedlD7PJU_SawBMTPRjR7wr"
         },
         "materials": {}
     },
@@ -225,7 +227,10 @@
             "https://www.youtube.com/embed/UZ9PzFp6aVQ"
         ],
         "long_description": {},
-        "ipynbs": {},
+        "ipynbs": {
+            "1_SAM": "https://colab.research.google.com/drive/1yBQ3_LKLbgSGoqqyOe2iM8d33oMkCfnJ",
+            "2_Stable_Diffusion": "https://colab.research.google.com/drive/1Uf-2Gj86BT6dLhQNcx4IzuvbUjmpoI8P"
+        },
         "materials": {}
     }
 }
