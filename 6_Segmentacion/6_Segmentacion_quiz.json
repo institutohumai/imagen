@@ -1,0 +1,82 @@
+{
+    "0":{
+        "Question":"\u00bfQu\u00e9 tipo de segmentaci\u00f3n se enfoca en dividir la imagen en regiones pertenecientes a diferentes clases sem\u00e1nticas a nivel de p\u00edxel?",
+        "Answer 1":"Segmentaci\u00f3n de im\u00e1genes",
+        "Answer 2":"Segmentaci\u00f3n de instancias",
+        "Answer 3":"Segmentaci\u00f3n sem\u00e1ntica",
+        "Answer 4":"Clasificaci\u00f3n de im\u00e1genes",
+        "Correct answer(s)":"3"
+    },
+    "1":{
+        "Question":"\u00bfCu\u00e1l es la principal diferencia entre la segmentaci\u00f3n de instancias y la segmentaci\u00f3n sem\u00e1ntica?",
+        "Answer 1":"La segmentaci\u00f3n sem\u00e1ntica utiliza bounding boxes.",
+        "Answer 2":"La segmentaci\u00f3n de instancias se enfoca en la clasificaci\u00f3n de im\u00e1genes.",
+        "Answer 3":"La segmentaci\u00f3n de instancias distingue diferentes instancias de objetos dentro de la misma clase.",
+        "Answer 4":"La segmentaci\u00f3n sem\u00e1ntica no requiere etiquetas para entrenamiento.",
+        "Correct answer(s)":"3"
+    },
+    "2":{
+        "Question":"\u00bfEn qu\u00e9 conjunto de datos se basa el ejercicio de segmentaci\u00f3n sem\u00e1ntica presentado en la clase?",
+        "Answer 1":"ImageNet",
+        "Answer 2":"Pascal VOC2012",
+        "Answer 3":"CIFAR-10",
+        "Answer 4":"MNIST",
+        "Correct answer(s)":"2"
+    },
+    "3":{
+        "Question":"\u00bfQu\u00e9 m\u00e9todo es com\u00fanmente usado para el preprocesamiento de datos en segmentaci\u00f3n sem\u00e1ntica para evitar el cambio de escala inexacto de las regiones segmentadas?",
+        "Answer 1":"Rotaci\u00f3n",
+        "Answer 2":"Normalizaci\u00f3n",
+        "Answer 3":"Escala de grises",
+        "Answer 4":"Recorte aleatorio",
+        "Correct answer(s)":"4"
+    },
+    "4":{
+        "Question":"En el contexto de redes neuronales para visi\u00f3n por computadora, \u00bfqu\u00e9 capa es utilizada para aumentar las dimensiones espaciales de los mapas de caracter\u00edsticas?",
+        "Answer 1":"Capa convolucional",
+        "Answer 2":"Capa de agrupamiento (Pooling layer)",
+        "Answer 3":"Capa de convoluci\u00f3n transpuesta",
+        "Answer 4":"Capa densa",
+        "Correct answer(s)":"3"
+    },
+    "5":{
+        "Question":"Para la convoluci\u00f3n transpuesta, el padding se aplica a:",
+        "Answer 1":"La entrada de la capa.",
+        "Answer 2":"La salida de la capa.",
+        "Answer 3":"El kernel.",
+        "Answer 4":"Ninguna de las anteriores.",
+        "Correct answer(s)":"2"
+    },
+    "6":{
+        "Question":"En un Fully Convolutional Network (FCN) para segmentaci\u00f3n sem\u00e1ntica, el prop\u00f3sito principal de la convoluci\u00f3n transpuesta es:",
+        "Answer 1":"Reducir dimensiones",
+        "Answer 2":"Extraer caracter\u00edsticas",
+        "Answer 3":"Clasificar im\u00e1genes",
+        "Answer 4":"Aumentar las dimensiones espaciales de los mapas de caracter\u00edsticas",
+        "Correct answer(s)":"4"
+    },
+    "7":{
+        "Question":"La inicializaci\u00f3n de las capas convolucionales transpuestas en una FCN para segmentaci\u00f3n sem\u00e1ntica com\u00fanmente emplea:",
+        "Answer 1":"Inicializaci\u00f3n de Xavier.",
+        "Answer 2":"Inicializaci\u00f3n aleatoria.",
+        "Answer 3":"Upsampling de interpolaci\u00f3n bilineal.",
+        "Answer 4":"Inicializaci\u00f3n de He.",
+        "Correct answer(s)":"3"
+    },
+    "8":{
+        "Question":"\u00bfQu\u00e9 t\u00e9cnica se utiliza com\u00fanmente para entrenar una red totalmente convolucional (Fully Convolutional Network) para segmentaci\u00f3n sem\u00e1ntica?",
+        "Answer 1":"Backpropagation est\u00e1ndar sin modificaciones.",
+        "Answer 2":"Transferencia de aprendizaje \u00fanicamente.",
+        "Answer 3":"Uso de una CNN preentrenada y modificaci\u00f3n de las \u00faltimas capas.",
+        "Answer 4":"Solo entrenamiento desde cero sin usar modelos preentrenados.",
+        "Correct answer(s)":"3"
+    },
+    "9":{
+        "Question":"Al realizar la predicci\u00f3n con una FCN en im\u00e1genes de tama\u00f1o variable para segmentaci\u00f3n sem\u00e1ntica, \u00bfqu\u00e9 t\u00e9cnica se suele aplicar para gestionar el cambio en las dimensiones de entrada?",
+        "Answer 1":"Se estandariza el tama\u00f1o de todas las im\u00e1genes al m\u00e1s peque\u00f1o presente en el conjunto de datos.",
+        "Answer 2":"Se recortan \u00e1reas que son m\u00faltiplos enteros de un determinado valor, cubriendo completamente la imagen de entrada.",
+        "Answer 3":"Se aplica downsampling a todas las im\u00e1genes a un tama\u00f1o fijo antes de la predicci\u00f3n.",
+        "Answer 4":"Se entrena un modelo separado para cada posible tama\u00f1o de imagen.",
+        "Correct answer(s)":"2"
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "0":{
+        "Question":"\u00bfCu\u00e1l es la principal diferencia entre los espacios de color RGB y BGR?",
+        "Answer 1":"RGB representa rojo, verde, y Bitcoin, mientras que BGR representa Bitcoin, grifo, y rojo.",
+        "Answer 2":"RGB es utilizado por OpenCV y BGR por Matplotlib.",
+        "Answer 3":"RGB es utilizado por muchas librer\u00edas mientras que OpenCV utiliza BGR.",
+        "Answer 4":"No hay diferencia, son exactamente lo mismo.",
+        "Correct answer(s)":"3"
+    },
+    "1":{
+        "Question":"\u00bfQu\u00e9 representan las dimensiones de una matriz de imagen en OpenCV?",
+        "Answer 1":"Ancho X Alto X Colores",
+        "Answer 2":"Ancho X Colores X Alto",
+        "Answer 3":"Alto X Ancho X Canales de Color",
+        "Answer 4":"Colores X Ancho X Alto",
+        "Correct answer(s)":"3"
+    },
+    "2":{
+        "Question":"\u00bfPara qu\u00e9 se usa el filtro gaussiano en el procesamiento de im\u00e1genes?",
+        "Answer 1":"Para convertir la imagen a escala de grises.",
+        "Answer 2":"Para detectar los bordes de los objetos en una imagen.",
+        "Answer 3":"Para desenfocar o suavizar la imagen.",
+        "Answer 4":"Para cambiar el color de la imagen a un tono azulado.",
+        "Correct answer(s)":"3"
+    },
+    "3":{
+        "Question":"El espacio de color HSV es considerado m\u00e1s \"intuitivo\" que RGB porque:",
+        "Answer 1":"Utiliza menos memoria para representar colores.",
+        "Answer 2":"Su codificaci\u00f3n es m\u00e1s cercana a las intuiciones humanas sobre el color.",
+        "Answer 3":"Es m\u00e1s f\u00e1cil de procesar por las computadoras.",
+        "Answer 4":"Es el espacio de color est\u00e1ndar utilizado en la industria de la impresi\u00f3n.",
+        "Correct answer(s)":"2"
+    },
+    "4":{
+        "Question":"\u00bfQu\u00e9 realiza la funci\u00f3n `cv2.Canny()`?",
+        "Answer 1":"Cambia el espacio de color de la imagen.",
+        "Answer 2":"Aplica un filtro de desenfoque gaussiano.",
+        "Answer 3":"Detecta los bordes de los objetos en la imagen.",
+        "Answer 4":"Redimensiona la imagen.",
+        "Correct answer(s)":"3"
+    },
+    "5":{
+        "Question":"\u00bfPara qu\u00e9 se utiliza la matrix de transformaci\u00f3n en la manipulaci\u00f3n de im\u00e1genes?",
+        "Answer 1":"Para cambiar la perspectiva de una parte de la imagen.",
+        "Answer 2":"Para detectar caras en una imagen.",
+        "Answer 3":"Para convertir im\u00e1genes a escala de grises.",
+        "Answer 4":"Para desenfocar la imagen.",
+        "Correct answer(s)":"1"
+    },
+    "6":{
+        "Question":"Al aplicar un filtro gaussiano con `cv2.GaussianBlur()`, \u00bfqu\u00e9 indican los n\u00fameros impares en la tupla de tama\u00f1o de kernel?",
+        "Answer 1":"El color del filtro a aplicar.",
+        "Answer 2":"El nivel de desenfoque.",
+        "Answer 3":"La posici\u00f3n de la imagen a desenfocar.",
+        "Answer 4":"La cantidad de veces que se aplica el filtro.",
+        "Correct answer(s)":"2"
+    },
+    "7":{
+        "Question":"\u00bfPor qu\u00e9 el espacio de color BGR es el predeterminado en OpenCV?",
+        "Answer 1":"Porque ofrece una mejor calidad de imagen.",
+        "Answer 2":"Porque es m\u00e1s f\u00e1cil de implementar.",
+        "Answer 3":"Hist\u00f3ricamente fue la elecci\u00f3n tomada por OpenCV, sin una ventaja t\u00e9cnica espec\u00edfica.",
+        "Answer 4":"Porque reduce el tiempo de procesamiento de im\u00e1genes.",
+        "Correct answer(s)":"3"
+    },
+    "8":{
+        "Question":"\u00bfQu\u00e9 funci\u00f3n se utiliza para agregar texto sobre una imagen en OpenCV?",
+        "Answer 1":"`cv2.addText()`",
+        "Answer 2":"`cv2.putText()`",
+        "Answer 3":"`cv2.drawText()`",
+        "Answer 4":"`cv2.writeText()`",
+        "Correct answer(s)":"2"
+    },
+    "9":{
+        "Question":"\u00bfCu\u00e1l es el prop\u00f3sito del algoritmo de Viola & Jones en visi\u00f3n artificial?",
+        "Answer 1":"Cambiar el espacio de color de las im\u00e1genes.",
+        "Answer 2":"Redimensionar im\u00e1genes.",
+        "Answer 3":"Aplicar filtros de imagen.",
+        "Answer 4":"Detectar rostros en im\u00e1genes.",
+        "Correct answer(s)":"4"
+    }
+}

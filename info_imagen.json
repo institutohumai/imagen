@@ -27,7 +27,23 @@
         "video_urls": [
             "https://www.youtube.com/embed/VuyRMzpxzxo"
         ],
-        "long_description": {},
+        "long_description": {
+            "intro": "Exploramos c\u00f3mo las capas convolucionales aprenden patrones visuales mediante el uso de Redes Convolucionales, aplic\u00e1ndolas en un ejemplo pr\u00e1ctico de detecci\u00f3n de bordes en im\u00e1genes.",
+            "temas": [
+                "Introducci\u00f3n a las Redes Neuronales Convolucionales (CNN) y diferencias con los MLP.",
+                "Uso y an\u00e1lisis de kernels en convoluciones para procesamiento de im\u00e1genes.",
+                "Implementaci\u00f3n de capas convolucionales y su aplicaci\u00f3n en PyTorch.",
+                "Entendimiento y aplicaci\u00f3n de detector de bordes verticales.",
+                "Aprendizaje de kernels en redes convolucionales.",
+                "Diferencias entre correlaci\u00f3n cruzada y convoluci\u00f3n.",
+                "Conceptos de mapa de caracter\u00edsticas y campo receptivo.",
+                "Uso de Padding y Stride en convoluciones.",
+                "Implementaci\u00f3n de entradas y salidas multicanal.",
+                "Introducci\u00f3n a convoluciones de tama\u00f1o 1x1.",
+                "Aplicaci\u00f3n y beneficios del pooling en CNN."
+            ],
+            "outro": "Desarrollar\u00e1 la capacidad de implementar y analizar Redes Neuronales Convolucionales para el procesamiento y an\u00e1lisis de im\u00e1genes en proyectos de Inteligencia Artificial."
+        },
         "ipynbs": {
             "Capas_Convolucionales": "https://colab.research.google.com/drive/13A3EFcnoOHhYrMwQ7m74zEMdkiMZHGsI",
             "ejercicios": "https://colab.research.google.com/drive/1-FMDdSJzanbntLgekCLOnV64kze3Kl_w",
@@ -42,7 +58,20 @@
             "https://www.youtube.com/embed/7iiRs_eaUMw",
             "https://www.youtube.com/embed/jiJfhCHukz0"
         ],
-        "long_description": {},
+        "long_description": {
+            "intro": "Aprende sobre la evoluci\u00f3n de las Redes Convolucionales Neuronales (CNN) y descubre c\u00f3mo las arquitecturas han avanzado desde LeNet hasta los modernos modelos Transformer aplicados en visi\u00f3n por computadora.",
+            "temas": [
+                "Introducci\u00f3n a las Redes Convolucionales y su importancia hist\u00f3rica.",
+                "LeNet y los inicios de las CNN.",
+                "Avances con AlexNet y el impacto de las competencias ImageNet.",
+                "Inception y los bloques modulares en las CNN.",
+                "ResNet y el concepto de conexiones residuales.",
+                "DenseNet y la conexi\u00f3n densa entre capas.",
+                "La transici\u00f3n de las CNN a los Transformers en tareas de visi\u00f3n por computadora.",
+                "Vision Transformers (ViT) y su aplicaci\u00f3n en el an\u00e1lisis de im\u00e1genes."
+            ],
+            "outro": "Adquirir\u00e1s una comprensi\u00f3n profunda de c\u00f3mo ha evolucionado el campo de las CNN y su aplicaci\u00f3n en inteligencia artificial para procesamiento de im\u00e1genes y visi\u00f3n por computadora."
+        },
         "ipynbs": {
             "1_Redes_Convolucionales": "https://colab.research.google.com/drive/1kEAzEtnxonLHdBXi33mddADvRF1nFrfB",
             "2_Transformers_Vision": "https://colab.research.google.com/drive/1-XJzWF3oue1o6a0qEgAwm5vHYmKTK85V",
@@ -226,7 +255,17 @@
             "https://www.youtube.com/embed/1bQTRiheXow",
             "https://www.youtube.com/embed/UZ9PzFp6aVQ"
         ],
-        "long_description": {},
+        "long_description": {
+            "intro": "Descubre c\u00f3mo el modelo Segment Anything (SAM) de Meta revoluciona la segmentaci\u00f3n de im\u00e1genes con sus capacidades de generalizaci\u00f3n, permiti\u00e9ndote segmentar cualquier objeto sin entrenamiento adicional.",
+            "temas": [
+                "Introducci\u00f3n al Modelo Segment Anything (SAM) y su importancia en la segmentaci\u00f3n de im\u00e1genes.",
+                "Diferencias entre segmentaci\u00f3n interactiva y autom\u00e1tica, y c\u00f3mo SAM las supera.",
+                "Arquitectura y componentes clave de SAM: Image Encoder, Prompt Encoder, y Mask Decoder.",
+                "Uso e implementaci\u00f3n de SAM en proyectos a trav\u00e9s de ejemplos pr\u00e1cticos en Colab.",
+                "Aplicaciones pr\u00e1cticas de SAM: creaci\u00f3n de m\u00e1scaras con un clic, segmentaci\u00f3n autom\u00e1tica, y generaci\u00f3n de m\u00e1scaras a partir de bounding boxes."
+            ],
+            "outro": "Al final de esta clase, ser\u00e1s capaz de implementar SAM en tus propios proyectos de segmentaci\u00f3n de im\u00e1genes y entender su arquitectura y aplicaciones."
+        },
         "ipynbs": {
             "1_SAM": "https://colab.research.google.com/drive/1yBQ3_LKLbgSGoqqyOe2iM8d33oMkCfnJ",
             "2_Stable_Diffusion": "https://colab.research.google.com/drive/1Uf-2Gj86BT6dLhQNcx4IzuvbUjmpoI8P"

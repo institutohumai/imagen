@@ -1,0 +1,82 @@
+{
+    "0":{
+        "Question":"\u00bfQu\u00e9 caracteriza principalmente a una Red Neuronal Convolucional (CNN) en comparaci\u00f3n con una Red Neuronal de capas densas (MLP)?",
+        "Answer 1":"Utiliza exclusivamente capas densas para procesar los datos.",
+        "Answer 2":"Aprende patrones temporales en secuencias de datos.",
+        "Answer 3":"Emplea operaciones de convoluci\u00f3n, lo que la hace muy eficiente para tareas de procesamiento de im\u00e1genes.",
+        "Answer 4":"No puede procesar datos con dimensiones espaciales, como im\u00e1genes.",
+        "Correct answer(s)":"3"
+    },
+    "1":{
+        "Question":"\u00bfQu\u00e9 representa el 'kernel' en una operaci\u00f3n de convoluci\u00f3n?",
+        "Answer 1":"La funci\u00f3n de activaci\u00f3n que se aplica despu\u00e9s de cada convoluci\u00f3n.",
+        "Answer 2":"Los pesos que se aplican sobre el vecindario de cada p\u00edxel de la entrada.",
+        "Answer 3":"El tama\u00f1o de la salida generada despu\u00e9s de aplicar la convoluci\u00f3n.",
+        "Answer 4":"El m\u00e9todo de optimizaci\u00f3n utilizado para actualizar los pesos de la red.",
+        "Correct answer(s)":"2"
+    },
+    "2":{
+        "Question":"\u00bfQu\u00e9 efecto tiene aplicar *padding* en una operaci\u00f3n de convoluci\u00f3n?",
+        "Answer 1":"Aumenta la velocidad de convergencia de la red al reducir el n\u00famero de par\u00e1metros.",
+        "Answer 2":"Permite controlar el tama\u00f1o espacial de la salida, usualmente para mantenerlo igual al tama\u00f1o de la entrada.",
+        "Answer 3":"Reduce directamente el n\u00famero de par\u00e1metros en el modelo, simplific\u00e1ndolo.",
+        "Answer 4":"Incrementa la profundidad del canal de salida de la operaci\u00f3n de convoluci\u00f3n.",
+        "Correct answer(s)":"2"
+    },
+    "3":{
+        "Question":"\u00bfQu\u00e9 realiza una operaci\u00f3n de *Max Pooling*?",
+        "Answer 1":"Calcula el promedio de un grupo de p\u00edxeles, reduciendo la resoluci\u00f3n espacial.",
+        "Answer 2":"Suma todos los p\u00edxeles de la entrada, conservando la dimensi\u00f3n original.",
+        "Answer 3":"Selecciona el valor m\u00e1ximo de un grupo de p\u00edxeles, reduciendo la resoluci\u00f3n espacial.",
+        "Answer 4":"Multiplica los valores de entrada por una matriz de pesos, transfiriendo datos a un espacio de mayor dimensi\u00f3n.",
+        "Correct answer(s)":"3"
+    },
+    "4":{
+        "Question":"\u00bfCu\u00e1l es el prop\u00f3sito principal de utilizar funciones de activaci\u00f3n no lineales en CNNs?",
+        "Answer 1":"Reducir el tiempo necesario para entrenar la red.",
+        "Answer 2":"Introducir no linealidades en la red que permitan modelar relaciones complejas.",
+        "Answer 3":"Linealizar los datos de entrada para simplificar el proceso de aprendizaje.",
+        "Answer 4":"Asegurar que la salida de la red sea siempre positiva.",
+        "Correct answer(s)":"2"
+    },
+    "5":{
+        "Question":"\u00bfEn qu\u00e9 se diferencian las capas *Fully Connected* (Densas) de las capas Convolucionales?",
+        "Answer 1":"Las capas convolucionales no tienen par\u00e1metros, mientras que las capas densas s\u00ed.",
+        "Answer 2":"Las capas convolucionales preservan la relaci\u00f3n espacial entre p\u00edxeles, a diferencia de las capas densas que no.",
+        "Answer 3":"Solo las capas convolucionales pueden procesar m\u00faltiples entradas a la vez.",
+        "Answer 4":"Las capas densas son espec\u00edficamente dise\u00f1adas para procesar im\u00e1genes, mientras que las convolucionales no.",
+        "Correct answer(s)":"2"
+    },
+    "6":{
+        "Question":"\u00bfQu\u00e9 rol juegan los canales en una imagen al utilizar CNNs?",
+        "Answer 1":"Determinan el n\u00famero de filtros que deben aplicarse en la primera capa convolucional.",
+        "Answer 2":"Representan diferentes vistas de la entrada (por ejemplo, RGB en im\u00e1genes) que pueden ser procesadas por separado por los kernels.",
+        "Answer 3":"Definen el tama\u00f1o m\u00e1ximo de los kernels que se pueden aplicar a la imagen.",
+        "Answer 4":"Los canales son agregados despu\u00e9s del entrenamiento para reducir la dimensionalidad de las im\u00e1genes.",
+        "Correct answer(s)":"2"
+    },
+    "7":{
+        "Question":"\u00bfC\u00f3mo afecta el *stride* en una operaci\u00f3n de convoluci\u00f3n?",
+        "Answer 1":"Modifica el n\u00famero de canales en la salida de la operaci\u00f3n de convoluci\u00f3n.",
+        "Answer 2":"Cambia la funci\u00f3n de activaci\u00f3n que se utiliza despu\u00e9s de la convoluci\u00f3n.",
+        "Answer 3":"Controla el desplazamiento del kernel sobre la entrada, afectando el tama\u00f1o de la salida.",
+        "Answer 4":"Determina la cantidad m\u00e1xima de capas convolucionales que la red puede tener.",
+        "Correct answer(s)":"3"
+    },
+    "8":{
+        "Question":"Al incrementar el tama\u00f1o del kernel en una capa convolucional, \u00bfqu\u00e9 efecto tiene esto en la arquitectura de la red?",
+        "Answer 1":"Reduce el n\u00famero de par\u00e1metros de la red, simplific\u00e1ndola.",
+        "Answer 2":"Aumenta el \u00e1rea de la entrada afectada por la convoluci\u00f3n, potencialmente capturando caracter\u00edsticas m\u00e1s generales.",
+        "Answer 3":"Disminuye la profundidad necesaria de la red para alcanzar una precisi\u00f3n dada.",
+        "Answer 4":"Limita la capacidad de la red para aprender funciones altamente no lineales.",
+        "Correct answer(s)":"2"
+    },
+    "9":{
+        "Question":"\u00bfCu\u00e1l es un paso com\u00fan necesario para preparar un conjunto de im\u00e1genes antes de entrenar una CNN?",
+        "Answer 1":"Convertir todas las im\u00e1genes a vectores de caracter\u00edsticas utilizando PCA.",
+        "Answer 2":"Normalizar los valores de p\u00edxeles para tener rangos similares, generalmente entre 0 y 1.",
+        "Answer 3":"Aplicar una transformaci\u00f3n lineal a todas las im\u00e1genes para reducir sus dimensiones.",
+        "Answer 4":"Ordenar las im\u00e1genes en el conjunto de datos seg\u00fan su similitud con las im\u00e1genes en el conjunto de prueba.",
+        "Correct answer(s)":"2"
+    }
+}

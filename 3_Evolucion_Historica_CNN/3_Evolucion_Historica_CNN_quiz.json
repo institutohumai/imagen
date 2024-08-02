@@ -1,0 +1,82 @@
+{
+    "0":{
+        "Question":"\u00bfQu\u00e9 caracteriza principalmente a los bloques residuales utilizados en ResNet?",
+        "Answer 1":"Concatenan entradas y salidas en la dimensi\u00f3n del canal.",
+        "Answer 2":"Utilizan un enfoque basado en la transformaci\u00f3n lineal de la entrada.",
+        "Answer 3":"Usan conexiones residuales para facilitar el entrenamiento de redes profundas.",
+        "Answer 4":"Reducen el n\u00famero de canales mediante convoluciones 1x1.",
+        "Correct answer(s)":"3"
+    },
+    "1":{
+        "Question":"\u00bfQu\u00e9 t\u00e9cnica utiliza DenseNet para manejar el flujo de informaci\u00f3n entre capas?",
+        "Answer 1":"Suma las salidas de capas consecutivas.",
+        "Answer 2":"Concatena las caracter\u00edsticas de entrada y salida en cada capa.",
+        "Answer 3":"Utiliza una convoluci\u00f3n de tama\u00f1o variable en cada capa.",
+        "Answer 4":"Aplica una normalizaci\u00f3n por lotes antes de cada bloque denso.",
+        "Correct answer(s)":"2"
+    },
+    "2":{
+        "Question":"En los Transformers para Visi\u00f3n (ViT), \u00bfc\u00f3mo se tratan los parches de las im\u00e1genes para su procesamiento?",
+        "Answer 1":"Se suman linealmente con un embedding posicional.",
+        "Answer 2":"Se proyectan linealmente a un espacio de caracter\u00edsticas y se suman con un embedding posicional.",
+        "Answer 3":"Se convierten directamente en tokens sin proyecci\u00f3n lineal.",
+        "Answer 4":"Se aplican convoluciones densas antes de la proyecci\u00f3n lineal.",
+        "Correct answer(s)":"2"
+    },
+    "3":{
+        "Question":"\u00bfQu\u00e9 activaci\u00f3n utiliza el MLP del encoder Transformer de Visi\u00f3n que difiere del Transformer original?",
+        "Answer 1":"Unidad lineal de error gaussiano (GELU).",
+        "Answer 2":"Funci\u00f3n de activaci\u00f3n ReLU.",
+        "Answer 3":"Funci\u00f3n sigmoide.",
+        "Answer 4":"Tanh hiperb\u00f3lica.",
+        "Correct answer(s)":"1"
+    },
+    "4":{
+        "Question":"\u00bfCu\u00e1l es una diferencia clave entre DenseNet y ResNet en t\u00e9rminos de estructura de red?",
+        "Answer 1":"DenseNet usa una funci\u00f3n de activaci\u00f3n diferente.",
+        "Answer 2":"ResNet concatena caracter\u00edsticas en lugar de sumarlas.",
+        "Answer 3":"DenseNet concatena caracter\u00edsticas en lugar de sumarlas.",
+        "Answer 4":"ResNet no utiliza bloques densos.",
+        "Correct answer(s)":"3"
+    },
+    "5":{
+        "Question":"\u00bfPara qu\u00e9 tipo de datos los Transformers de Visi\u00f3n (ViT) muestran su ventaja sobre ResNet cuando se entrenan modelos?",
+        "Answer 1":"Datasets peque\u00f1os.",
+        "Answer 2":"Im\u00e1genes a baja resoluci\u00f3n.",
+        "Answer 3":"Datasets grandes con modelos m\u00e1s grandes.",
+        "Answer 4":"Datos con una estructura espacial simple.",
+        "Correct answer(s)":"3"
+    },
+    "6":{
+        "Question":"La normalizaci\u00f3n por lotes en los modelos CNN se usa para:",
+        "Answer 1":"Acelerar la convergencia y actuar como regularizaci\u00f3n.",
+        "Answer 2":"Reducir la cantidad de par\u00e1metros en el modelo.",
+        "Answer 3":"Aumentar la profundidad del modelo sin aumentar el costo computacional.",
+        "Answer 4":"Concatenar caracter\u00edsticas de diferentes capas.",
+        "Correct answer(s)":"1"
+    },
+    "7":{
+        "Question":"\u00bfQu\u00e9 operaci\u00f3n realiza la capa de transici\u00f3n en DenseNet?",
+        "Answer 1":"Ampl\u00eda el n\u00famero de canales y reduce la resoluci\u00f3n espacial.",
+        "Answer 2":"Mantiene el n\u00famero de canales y la resoluci\u00f3n espacial.",
+        "Answer 3":"A\u00f1ade m\u00e1s bloques densos para aumentar la profundidad.",
+        "Answer 4":"Reduce el n\u00famero de canales y la resoluci\u00f3n espacial.",
+        "Correct answer(s)":"4"
+    },
+    "8":{
+        "Question":"\u00bfQu\u00e9 problema trata de solucionar la inclusi\u00f3n del token \"cls\" en los Transformers de Visi\u00f3n (ViT)?",
+        "Answer 1":"Aumentar el n\u00famero de caracter\u00edsticas disponibles para la clasificaci\u00f3n.",
+        "Answer 2":"Proporcionar una representaci\u00f3n global para la tarea de clasificaci\u00f3n.",
+        "Answer 3":"Reducir la dimensionalidad de las caracter\u00edsticas.",
+        "Answer 4":"Actuar como un elemento regulador para evitar sobreajustes.",
+        "Correct answer(s)":"2"
+    },
+    "9":{
+        "Question":"En el contexto de la evoluci\u00f3n de las CNNs, \u00bfqu\u00e9 aportaron las ResNets en comparaci\u00f3n con modelos anteriores como AlexNet?",
+        "Answer 1":"Una forma m\u00e1s eficaz de manejar datos de imagen de alta resoluci\u00f3n.",
+        "Answer 2":"Un n\u00famero reducido de par\u00e1metros debido a convoluciones 1x1.",
+        "Answer 3":"La capacidad de entrenar redes mucho m\u00e1s profundas sin sufrir degradaci\u00f3n de rendimiento.",
+        "Answer 4":"Un enfoque basado en la atenci\u00f3n para interpretar relaciones espaciales complejas.",
+        "Correct answer(s)":"3"
+    }
+}

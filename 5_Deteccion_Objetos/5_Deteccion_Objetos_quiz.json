@@ -1,0 +1,82 @@
+{
+    "0":{
+        "Question":"\u00bfCu\u00e1l es el objetivo principal de la detecci\u00f3n de objetos en im\u00e1genes?",
+        "Answer 1":"Clasificar las im\u00e1genes en categor\u00edas predefinidas.",
+        "Answer 2":"Convertir im\u00e1genes en escala de grises.",
+        "Answer 3":"Reducir el tama\u00f1o de la imagen para su almacenamiento.",
+        "Answer 4":"Identificar y localizar objetos dentro de la imagen.",
+        "Correct answer(s)":"4"
+    },
+    "1":{
+        "Question":"En el modelo SSD para detecci\u00f3n de objetos, \u00bfqu\u00e9 representan las \"anchor boxes\"?",
+        "Answer 1":"Filtros aplicados durante la convoluci\u00f3n para detectar bordes.",
+        "Answer 2":"Las clases a las que pertenecen los objetos en la imagen.",
+        "Answer 3":"Cajas de referencia utilizadas para predecir la ubicaci\u00f3n de los objetos.",
+        "Answer 4":"Partes segmentadas de la imagen que se ignoran durante el entrenamiento.",
+        "Correct answer(s)":"3"
+    },
+    "2":{
+        "Question":"\u00bfQu\u00e9 t\u00e9cnica utiliza SSD para manejar objetos de diferentes tama\u00f1os?",
+        "Answer 1":"Cambiar el tama\u00f1o de todas las im\u00e1genes a dimensiones fijas.",
+        "Answer 2":"Utilizar mapas de caracter\u00edsticas a m\u00faltiples escalas.",
+        "Answer 3":"Aplicar filtros de desenfoque a las im\u00e1genes para reducir detalles.",
+        "Answer 4":"Aumentar el n\u00famero de capas en la red neuronal.",
+        "Correct answer(s)":"2"
+    },
+    "3":{
+        "Question":"Al implementar la capa de predicci\u00f3n de clases en SSD, \u00bfcu\u00e1l es el prop\u00f3sito de utilizar una capa convolucional sin alterar el ancho o la altura de los mapas de caracter\u00edsticas?",
+        "Answer 1":"Mantener una correspondencia uno a uno entre las entradas y las salidas de las mismas dimensiones espaciales.",
+        "Answer 2":"Aumentar la profundidad de los mapas de caracter\u00edsticas para detectar m\u00e1s detalles.",
+        "Answer 3":"Reducir el n\u00famero de c\u00e1lculos necesarios para la clasificaci\u00f3n.",
+        "Answer 4":"Fusionar diferentes mapas de caracter\u00edsticas en una sola salida consolidada.",
+        "Correct answer(s)":"1"
+    },
+    "4":{
+        "Question":"\u00bfQu\u00e9 es la IoU (\"Intersecci\u00f3n sobre Uni\u00f3n\") en el contexto de la detecci\u00f3n de objetos?",
+        "Answer 1":"Una m\u00e9trica para calcular el error entre las predicciones del modelo y las anotaciones reales.",
+        "Answer 2":"Una medida de la superposici\u00f3n entre las bounding boxes predichas y las verdaderas.",
+        "Answer 3":"Un algoritmo para clasificar las categor\u00edas de objetos dentro de una imagen.",
+        "Answer 4":"Una t\u00e9cnica para combinar m\u00faltiples modelos de detecci\u00f3n de objetos y mejorar la precisi\u00f3n.",
+        "Correct answer(s)":"2"
+    },
+    "5":{
+        "Question":"En la detecci\u00f3n de objetos, \u00bfqu\u00e9 m\u00e9todo se utiliza para resolver el problema de las m\u00faltiples bounding boxes predichas para el mismo objeto?",
+        "Answer 1":"Aumento de im\u00e1genes.",
+        "Answer 2":"Supresi\u00f3n de no m\u00e1ximos (Non-Maximum Suppression, NMS).",
+        "Answer 3":"Normalizaci\u00f3n de lotes.",
+        "Answer 4":"Dropout.",
+        "Correct answer(s)":"2"
+    },
+    "6":{
+        "Question":"\u00bfQu\u00e9 papel juegan los \"down sampling blocks\" en el modelo SSD?",
+        "Answer 1":"Aumentar la resoluci\u00f3n de las im\u00e1genes de entrada.",
+        "Answer 2":"Reducir la altura y el ancho de los mapas de caracter\u00edsticas para detectar objetos a diferentes escalas.",
+        "Answer 3":"Eliminar caracter\u00edsticas irrelevantes de los datos de entrada.",
+        "Answer 4":"Generar versiones ampliadas de las im\u00e1genes de entrada para mejorar la detecci\u00f3n.",
+        "Correct answer(s)":"2"
+    },
+    "7":{
+        "Question":"\u00bfC\u00f3mo se generan las \"anchor boxes\" de distintas formas en SSD?",
+        "Answer 1":"Variando el n\u00famero de capas en la red neuronal.",
+        "Answer 2":"Aplicando transformaciones de rotaci\u00f3n a las im\u00e1genes.",
+        "Answer 3":"Utilizando combinaciones de diferentes escalas y relaciones de aspecto.",
+        "Answer 4":"Cambiando aleatoriamente el tama\u00f1o de las im\u00e1genes durante el entrenamiento.",
+        "Correct answer(s)":"3"
+    },
+    "8":{
+        "Question":"\u00bfQu\u00e9 t\u00e9rmino describe mejor a las \"anchor boxes\" que no se asignan a una bounding box durante la fase de entrenamiento?",
+        "Answer 1":"Anchor boxes activas.",
+        "Answer 2":"Anchor boxes principales.",
+        "Answer 3":"Anchor boxes negativas.",
+        "Answer 4":"Anchor boxes de fondo.",
+        "Correct answer(s)":"3"
+    },
+    "9":{
+        "Question":"Durante el entrenamiento de un modelo SSD, \u00bfc\u00f3mo se calcula la p\u00e9rdida relacionada con las predicciones de las ubicaciones de los objetos?",
+        "Answer 1":"Usando la p\u00e9rdida de entrop\u00eda cruzada.",
+        "Answer 2":"Usando la p\u00e9rdida de la norma $\\ell_1$ entre las predicciones y los valores verdaderos.",
+        "Answer 3":"Aplicando la funci\u00f3n de activaci\u00f3n softmax.",
+        "Answer 4":"Mediante el c\u00e1lculo de la precisi\u00f3n y el recall.",
+        "Correct answer(s)":"2"
+    }
+}
