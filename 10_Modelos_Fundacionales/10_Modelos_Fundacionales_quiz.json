@@ -1,0 +1,82 @@
+{
+    "1": {
+        "Question": "¿Cuál es el objetivo principal del modelo Stable Diffusion?",
+        "Answer 1": "Generar secuencias de texto coherentes",
+        "Answer 2": "Reducir el ruido en imágenes",
+        "Answer 3": "Generar imágenes a partir de descripciones textuales",
+        "Answer 4": "Clasificar imágenes",
+        "Correct answer(s)": "3"
+    },
+    "2": {
+        "Question": "¿Cuál es el propósito del \"guidance scale\" en Stable Diffusion?",
+        "Answer 1": "Determinar la resolución de la imagen",
+        "Answer 2": "Ajustar el contraste de la imagen",
+        "Answer 3": "Escalar la guía para el modelo libre de clasificación",
+        "Answer 4": "Configurar el número de pasos de inferencia",
+        "Correct answer(s)": "3"
+    },
+    "3": {
+        "Question": "¿Qué papel juega el UNet2DConditionModel en el proceso de Stable Diffusion?",
+        "Answer 1": "Decodificar latentes en el espacio de la imagen",
+        "Answer 2": "Tokenizar y codificar el texto",
+        "Answer 3": "Generar latentes a partir de la guía textual",
+        "Answer 4": "Configurar el número de pasos de inferencia",
+        "Correct answer(s)": "3"
+    },
+    "4": {
+        "Question": "¿Cuál es la función del AutoencoderKL en Stable Diffusion?",
+        "Answer 1": "Decodificar los latentes en el espacio de la imagen",
+        "Answer 2": "Tokenizar y codificar el texto",
+        "Answer 3": "Generar los latentes",
+        "Answer 4": "Ajustar el número de pasos de inferencia",
+        "Correct answer(s)": "1"
+    },
+    "5": {
+        "Question": "¿Cuál es la función del modelo CLIP en el pipeline de Stable Diffusion?",
+        "Answer 1": "Decodificar los latentes en el espacio de la imagen",
+        "Answer 2": "Tokenizar y codificar el texto",
+        "Answer 3": "Generar ruido inicial",
+        "Answer 4": "Configurar el número de pasos de inferencia",
+        "Correct answer(s)": "2"
+    },
+    "6": {
+        "Question": "¿Cuál es la función principal del modelo SAM (Segment Anything Model)?",
+        "Answer 1": "Clasificación de imágenes",
+        "Answer 2": "Generación de texto a partir de imágenes",
+        "Answer 3": "Segmentación de imágenes basado en prompts",
+        "Answer 4": "Traducción de texto",
+        "Correct answer(s)": "3"
+    },
+    "7": {
+        "Question": "¿Qué componente de SAM se encarga de procesar las imágenes de entrada?",
+        "Answer 1": "Prompt Encoder",
+        "Answer 2": "Image Encoder",
+        "Answer 3": "Mask Decoder",
+        "Answer 4": "Tokenizer",
+        "Correct answer(s)": "2"
+    },
+    "8": {
+        "Question": "¿Qué tipos de prompt puede recibir el modelo SAM para generar segmentaciones?",
+        "Answer 1": "Prompts de texto y prompts visuales",
+        "Answer 2": "Prompts numéricos y prompts de audio",
+        "Answer 3": "Prompts de video y prompts de texto",
+        "Answer 4": "Prompts de audio y prompts visuales",
+        "Correct answer(s)": "1"
+    },
+    "9": {
+        "Question": "¿Qué ventaja ofrece SAM en comparación con los métodos tradicionales de segmentación?",
+        "Answer 1": "Necesita menos datos de entrenamiento específicos",
+        "Answer 2": "Mayor precisión en todas las tareas",
+        "Answer 3": "Menor uso de recursos computacionales",
+        "Answer 4": "No requiere entrenamiento previo",
+        "Correct answer(s)": "1"
+    },
+    "10": {
+        "Question": "¿Cuál es el propósito del componente Mask Decoder en SAM?",
+        "Answer 1": "Decodificar el texto en imágenes",
+        "Answer 2": "Decodificar las máscaras de segmentación generadas",
+        "Answer 3": "Ajustar los parámetros de entrada",
+        "Answer 4": "Generar prompts para la segmentación",
+        "Correct answer(s)": "2"
+    }
+}
